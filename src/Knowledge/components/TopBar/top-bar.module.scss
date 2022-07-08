@@ -1,10 +1,10 @@
 @import "@duik/core/_vars.scss";
 
-.buildings-top-bar-actions {
+.top-bar-actions {
   height: 38px;
 
   @media screen and (max-width: 768px) {
-    .buildings-top-bar-mobile-hidden {
+    .top-bar-mobile-hidden {
       display: none;
     }
   }
@@ -14,7 +14,7 @@
   }
 }
 
-.buildings-top-bar {
+.top-bar {
   position: relative;
 
   @media screen and (max-width: 400px) {
