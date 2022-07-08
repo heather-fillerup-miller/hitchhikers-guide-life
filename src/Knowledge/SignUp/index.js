@@ -12,7 +12,7 @@ import {
 } from '@duik/it';
 
 import * as images from '@exampleAssets';
-import cls from './buildings-signup.module.scss';
+import cls from './signup.module.scss';
 
 import LoginCard from './components/Card';
 import LoginCardContainer from './components/CardContainer';

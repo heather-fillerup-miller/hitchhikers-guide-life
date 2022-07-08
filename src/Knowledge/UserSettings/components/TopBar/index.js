@@ -5,18 +5,18 @@ import {
   TopBarTitle,
 } from '@duik/it'
 
-import BuildingsTopBar from '../../../components/TopBar'
+import Template from '../../../components/TopBar'
 
 
-const BuildingsListingTopBar = props => (
-  <BuildingsTopBar { ...props }>
+const SettingsListingTopBar = props => (
+  <Template { ...props }>
     <TopBarSection>
       <TopBarTitle>
         Settings
       </TopBarTitle>
     </TopBarSection>
-  </BuildingsTopBar>
+  </Template>
 )
 
 
-export default BuildingsListingTopBar
+export default SettingsListingTopBar

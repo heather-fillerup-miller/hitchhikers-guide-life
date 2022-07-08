@@ -2,7 +2,7 @@ import React from 'react'
 import classnames from 'classnames'
 import Icon from '@duik/icon'
 
-import cls from './buildings-signin-card.module.scss'
+import cls from './signin-card.module.scss'
 
 
 const LoginCard = ({

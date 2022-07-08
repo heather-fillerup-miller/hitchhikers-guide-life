@@ -22,7 +22,7 @@ import {
 } from '@duik/it';
 
 import TopBar from './components/TopBar';
-import cls from './buildings-user.module.scss';
+import cls from './user.module.scss';
 
 import optionsCountries from './assets/optionsCountries';
 import optionsCities from './assets/optionsCities';
@@ -56,7 +56,7 @@ const links = [
   }
 ];
 
-const BuildingsDashboard = () => {
+const SettingsDashboard = () => {
   const [optionCountry, setOptionCountry] = React.useState(optionsCountries[0]);
   const [optionCity, setOptionCity] = React.useState(optionsCities[0]);
 
@@ -231,4 +231,4 @@ const BuildingsDashboard = () => {
   );
 };
 
-export default BuildingsDashboard;
+export default SettingsDashboard;
