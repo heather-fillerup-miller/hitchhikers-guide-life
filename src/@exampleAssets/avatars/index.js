@@ -30,3 +30,4 @@ export { default as a29 } from './a19.jpg';
 export { default as a30 } from './a20.jpg';
 export { default as a31 } from './a21.jpg';
 export { default as a32 } from './a22.jpg';
+export { default as da1 } from './da1.jpg';

@@ -918,14 +918,14 @@
 
 "@duik/alert@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/alert/-/alert-0.4.0.tgz#1b26b6a478cb8d376b6ad6d734c7ce53b8f06219"
+  resolved "https://registry.yarnpkg.com/@duik/alert/-/alert-0.4.0.tgz#1b26b6a478cb8d376b6ad6d734c7ce53b8f06219"
   integrity sha512-OxfIFzmbLhGc8l+kamPm1fBxDQzkxybM092JuF5pGuKZZB3lH7M+LN01ff99XhZv4CciJS+SBu5q4yzFtkpMmA==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/avatar@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/avatar/-/avatar-0.4.0.tgz#233f66ed260fd5a6fbcbde9a0f2c983998ee4461"
+  resolved "https://registry.yarnpkg.com/@duik/avatar/-/avatar-0.4.0.tgz#233f66ed260fd5a6fbcbde9a0f2c983998ee4461"
   integrity sha512-L5jjtt7NHsOfEtHZXq9HgkW4VeiJjGWmgW4MrRIWNwq6x3ygdFFW4wyF2meaWgbmfYMZynaGJgXViLuPbEZzlQ==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -933,21 +933,21 @@
 
 "@duik/base-input@^0.4.1":
   version "0.4.1"
-  resolved "https://registry.npmjs.org/@duik/base-input/-/base-input-0.4.1.tgz#14e799447595486429506b0838c81cff09e6e8ad"
+  resolved "https://registry.yarnpkg.com/@duik/base-input/-/base-input-0.4.1.tgz#14e799447595486429506b0838c81cff09e6e8ad"
   integrity sha512-7Ax6DHIgP7Hx+9JzTy/p9KBDtXU0GRElBPB6FEh+iFmtpGIKFosifa/EOd92WLE70IHDTE/aPWBZ3bcBTYsAiA==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/button-group@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/button-group/-/button-group-0.4.0.tgz#19f68811b4732752351268beb1ff52cc7d68983e"
+  resolved "https://registry.yarnpkg.com/@duik/button-group/-/button-group-0.4.0.tgz#19f68811b4732752351268beb1ff52cc7d68983e"
   integrity sha512-ZoABJj0OiPbnIif2e7rVpmy3ffqatQjEOlBfqWXkVcXw3SLH6lp0kvo26CgJdsOW/IFycoU9oUia9MA6/vbjZA==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/button@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/button/-/button-0.4.0.tgz#e46ff003236cf759a32e4801dce1bb349f81fdf6"
+  resolved "https://registry.yarnpkg.com/@duik/button/-/button-0.4.0.tgz#e46ff003236cf759a32e4801dce1bb349f81fdf6"
   integrity sha512-gB/N3eqhdrtjUUltwmZCKmq9ZdUiGNLi0+ELGwKJvawM+qnDvl832xyCW/ZMNj9+eP6XsgUhP2NlU8UHYWqnxw==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -955,14 +955,14 @@
 
 "@duik/checkbox@^0.4.1":
   version "0.4.1"
-  resolved "https://registry.npmjs.org/@duik/checkbox/-/checkbox-0.4.1.tgz#faa2ae4da76e85f942afd4c43ff4508ec13ee501"
+  resolved "https://registry.yarnpkg.com/@duik/checkbox/-/checkbox-0.4.1.tgz#faa2ae4da76e85f942afd4c43ff4508ec13ee501"
   integrity sha512-N0CtLGNY11RCxqTQoBqcdK3nqJmos2wvmqw504VNrg8lbJVkFlQThd5dvxLI9J9zWl/1UXkXvxHh7ZbHXK5NUA==
   dependencies:
     "@duik/base-input" "^0.4.1"
 
 "@duik/container-horizontal@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/container-horizontal/-/container-horizontal-0.4.0.tgz#ba3e671887134fca87979eaece473de585c15ae7"
+  resolved "https://registry.yarnpkg.com/@duik/container-horizontal/-/container-horizontal-0.4.0.tgz#ba3e671887134fca87979eaece473de585c15ae7"
   integrity sha512-4t0zPwLvqhBVp5m4ZJJrqgeoGlo6eDlH05z4NDkDBFaCLx/X8rTWGb97kgZKowyD6jZbG7sAdNcyfnwOa4L37A==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -970,7 +970,7 @@
 
 "@duik/container-vertical@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/container-vertical/-/container-vertical-0.4.0.tgz#934edce988fb2435a10e3481ca8fcf63e016d292"
+  resolved "https://registry.yarnpkg.com/@duik/container-vertical/-/container-vertical-0.4.0.tgz#934edce988fb2435a10e3481ca8fcf63e016d292"
   integrity sha512-EBj/Bv8IjNSLgdI3h0q6SQuPH9tCC9FNNCnOm7eQo6ajLtmS0tA9esYBi9vVB4Rk2Uh5Xp9HmDHamSXXZPmDNQ==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -978,7 +978,7 @@
 
 "@duik/content-title@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/content-title/-/content-title-0.4.0.tgz#6caff4bd6f48991fcc86d04543b656f5821c481f"
+  resolved "https://registry.yarnpkg.com/@duik/content-title/-/content-title-0.4.0.tgz#6caff4bd6f48991fcc86d04543b656f5821c481f"
   integrity sha512-J9uXy2VMghzR7DsCLoIbYW3JlvW4DT30gGMsHrfqL+FwxbhGrjJHM0VKcKfc7PACj/jZoYHJXTBxw1IQyVB2mA==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1003,7 +1003,7 @@
 
 "@duik/datepicker@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/datepicker/-/datepicker-0.4.0.tgz#410aa2125cf1cb742c69e5478d612762d2f18e07"
+  resolved "https://registry.yarnpkg.com/@duik/datepicker/-/datepicker-0.4.0.tgz#410aa2125cf1cb742c69e5478d612762d2f18e07"
   integrity sha512-3E79wd330+yRWu+hyyOA7JWIDXDsmw4din723QcxPtII9I8ts6H/UvBLcsz8M4lxWK392JWF/1954XwPxhoAuw==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1011,14 +1011,14 @@
 
 "@duik/divider@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/divider/-/divider-0.4.0.tgz#53f25cb5f541835c50bb512c1bfa268ed3610be4"
+  resolved "https://registry.yarnpkg.com/@duik/divider/-/divider-0.4.0.tgz#53f25cb5f541835c50bb512c1bfa268ed3610be4"
   integrity sha512-sOKpL2JGaAG1cP45QTkf++HlEawpuw5Ud4MvE6wlSMyXEVlU/1cVwP5MpowrPlVszttlmct23x6ixrvqHVVSow==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/dropdown@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/dropdown/-/dropdown-0.4.0.tgz#7f6c6a6b1702347b41d7c21682077bf3bcd454fe"
+  resolved "https://registry.yarnpkg.com/@duik/dropdown/-/dropdown-0.4.0.tgz#7f6c6a6b1702347b41d7c21682077bf3bcd454fe"
   integrity sha512-wRj2swE5v7jP84MQz7dicjp2XZKY+Tq288GP47kc9IaEwoi7XK6v2WVvw0SeKMJTRa5Xk9mJmeuQUjJ+MG87pg==
   dependencies:
     "@duik/button" "^0.4.0"
@@ -1028,12 +1028,12 @@
 
 "@duik/form-group-container@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/form-group-container/-/form-group-container-0.4.0.tgz#97294acbcb21bb3af78b44788056aba0e249aa21"
+  resolved "https://registry.yarnpkg.com/@duik/form-group-container/-/form-group-container-0.4.0.tgz#97294acbcb21bb3af78b44788056aba0e249aa21"
   integrity sha512-WPZ4tfs3Oe5xmgdElFwhXnuEXqprdwx4Z+pH7DEAl1YzBiJPjETgw5woW3C++f14xwra6ND2PyDAVmRswdI+Uw==
 
 "@duik/form-group@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/form-group/-/form-group-0.4.0.tgz#9036f10a886cce14e9d1da802cc2450ed28e60b3"
+  resolved "https://registry.yarnpkg.com/@duik/form-group/-/form-group-0.4.0.tgz#9036f10a886cce14e9d1da802cc2450ed28e60b3"
   integrity sha512-6MuHUDQ1td1ZH+pTSGLoTdu07Bz4Ew+WYo0gshiO0L4WBUiml9hy9rkDTsihgsUtg5YwsrJdwCPt15dpicFNDA==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1048,7 +1048,7 @@
 
 "@duik/it@^0.4.1":
   version "0.4.1"
-  resolved "https://registry.npmjs.org/@duik/it/-/it-0.4.1.tgz#e07790224a3b2f7a7095bee6efbcf0fbffb675d9"
+  resolved "https://registry.yarnpkg.com/@duik/it/-/it-0.4.1.tgz#e07790224a3b2f7a7095bee6efbcf0fbffb675d9"
   integrity sha512-WwH/8QOe/oj5opTyw7xS0lpUM2JMTspS8lhqFdVbwGmFF8Uv8719gIEEJOwQbTYM8Ms6JAW3jNcGoKGEtjXLXA==
   dependencies:
     "@duik/alert" "^0.4.0"
@@ -1094,28 +1094,28 @@
 
 "@duik/loader-dots@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/loader-dots/-/loader-dots-0.4.0.tgz#4567f533849a2a11f5284cc64aba4ad2ad9e3709"
+  resolved "https://registry.yarnpkg.com/@duik/loader-dots/-/loader-dots-0.4.0.tgz#4567f533849a2a11f5284cc64aba4ad2ad9e3709"
   integrity sha512-qGPspVzZAubzQyAepJ86o2+snw1ZZuEC8uR+0dzxu3Ie5FQyvDELrxRkeKK72k+xdsAV56Q4uDMM0xZPq5Eevw==
   dependencies:
     "@types/react" "^16.8.16"
 
 "@duik/nav-link@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/nav-link/-/nav-link-0.4.0.tgz#41b2a6ca63703005229d5e814bf7023a176ed1e0"
+  resolved "https://registry.yarnpkg.com/@duik/nav-link/-/nav-link-0.4.0.tgz#41b2a6ca63703005229d5e814bf7023a176ed1e0"
   integrity sha512-Bd68YYyOUW2+810Q5deEWXV3MPrroxu/vbVcEUMsV4QsMvcXXXLvbxHslxuNXMYM8//cRXz8WATngYSHvXhsWw==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/nav-panel@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/nav-panel/-/nav-panel-0.4.0.tgz#8b938ef1720cefa8953f7690ec3acb50bffab532"
+  resolved "https://registry.yarnpkg.com/@duik/nav-panel/-/nav-panel-0.4.0.tgz#8b938ef1720cefa8953f7690ec3acb50bffab532"
   integrity sha512-zFPI4AMYmbsYjae9RzXEa7SS9/Zjp4oAgc7m8lheoEWmipw9vi5UFLMOgzViwRko9kq9caMXxjNRNug3tJHz5w==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/nav-section-title@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/nav-section-title/-/nav-section-title-0.4.0.tgz#850f3283c48f39c599bb604d07d97f38077c4798"
+  resolved "https://registry.yarnpkg.com/@duik/nav-section-title/-/nav-section-title-0.4.0.tgz#850f3283c48f39c599bb604d07d97f38077c4798"
   integrity sha512-fXdyH5DFUFwXRvukcw1nHRyw9S/OF7MRvrnpOTe83doB1Iufzi0tHGqEzgb2ab1SoXuZSd2PnQGC6sRJg9YMiw==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1123,14 +1123,14 @@
 
 "@duik/nav-section@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/nav-section/-/nav-section-0.4.0.tgz#521932db0841986110f27e0a9420b9a8eac405f7"
+  resolved "https://registry.yarnpkg.com/@duik/nav-section/-/nav-section-0.4.0.tgz#521932db0841986110f27e0a9420b9a8eac405f7"
   integrity sha512-VErC3Mrp1sG6vWWwlO8DCqNSkEqcuDlBMsrPAwbdsozKRPyELvj01zOj5zeKAe8+wZiMbmRhjwIKyHO7eJQfsg==
   dependencies:
     "@duik/create-simple-component" "^0.4.0"
 
 "@duik/nav-title@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/nav-title/-/nav-title-0.4.0.tgz#6ebe9e182af22e715c8a58d21c67484f02340adc"
+  resolved "https://registry.yarnpkg.com/@duik/nav-title/-/nav-title-0.4.0.tgz#6ebe9e182af22e715c8a58d21c67484f02340adc"
   integrity sha512-og4dmG9x6F38Is6pLgKvYXCnMFqF6Cq7QaPdYXtUM94FBvkK6rfA8E2AvE0Xc2YUzkwIvOVQtaUTAw8rhSUxfg==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1138,28 +1138,28 @@
 
 "@duik/outer-events-handler@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/outer-events-handler/-/outer-events-handler-0.4.0.tgz#7a0443f85d4ce21597c498af160782e2cfa247f6"
+  resolved "https://registry.yarnpkg.com/@duik/outer-events-handler/-/outer-events-handler-0.4.0.tgz#7a0443f85d4ce21597c498af160782e2cfa247f6"
   integrity sha512-CvmazddZEI7WVnMmD2VXIuW5qpsw8r7930t9012XVhilbP0un7Iaoz10vkXlHaZOf1LoMmG9OVTD7LS4jnAdHA==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/progress@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/progress/-/progress-0.4.0.tgz#a4b3ee2f996d8eb7bc3f031e40ecce79143844f5"
+  resolved "https://registry.yarnpkg.com/@duik/progress/-/progress-0.4.0.tgz#a4b3ee2f996d8eb7bc3f031e40ecce79143844f5"
   integrity sha512-HbyXzOB0RlSfYJCzuX2b1dZtKhnHFDNE3kxKg+Cah7PnsmQpyT2YiJ2yG/7UwUL73c5Rs0AYqVH3yjSiWt2MDw==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/radio@^0.4.1":
   version "0.4.1"
-  resolved "https://registry.npmjs.org/@duik/radio/-/radio-0.4.1.tgz#53c9c8b8949054b9271877cafbd9fb6adca7b631"
+  resolved "https://registry.yarnpkg.com/@duik/radio/-/radio-0.4.1.tgz#53c9c8b8949054b9271877cafbd9fb6adca7b631"
   integrity sha512-3zzj0fBbaOICBdukGq7CNUSji/DFEv1WBTT/nLigIk80LMQh6GhCvzxLbOO4OjWNWl7Rp9zJkgigbx2PgGGiPQ==
   dependencies:
     "@duik/base-input" "^0.4.1"
 
 "@duik/scroll-area@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/scroll-area/-/scroll-area-0.4.0.tgz#6f7603c2bbccee1733da596107ed3b0499fd5a03"
+  resolved "https://registry.yarnpkg.com/@duik/scroll-area/-/scroll-area-0.4.0.tgz#6f7603c2bbccee1733da596107ed3b0499fd5a03"
   integrity sha512-n3Oze6PuiYNC8SMRzFAaGTTkJh2dDt+47LcfCzoE6lFBaImjHua6mQ/QHkGCnTH3dk//gI/Bdny/56wTapyDEA==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1167,7 +1167,7 @@
 
 "@duik/select-date@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/select-date/-/select-date-0.4.0.tgz#fc919626afd6315b7140c6aa9b5ea7310c401dbb"
+  resolved "https://registry.yarnpkg.com/@duik/select-date/-/select-date-0.4.0.tgz#fc919626afd6315b7140c6aa9b5ea7310c401dbb"
   integrity sha512-MWYbtHP0uOcMcUbGVD4u2254nhNlX2g5sk4Emrssx1t2fJn7qO+BPdc612VN6MCd0sXEsE40iyR/I4KJDN5Ssg==
   dependencies:
     "@duik/content-title" "^0.4.0"
@@ -1180,7 +1180,7 @@
 
 "@duik/select@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/select/-/select-0.4.0.tgz#bbd9002adbb41972524dfafe447473fcd9778071"
+  resolved "https://registry.yarnpkg.com/@duik/select/-/select-0.4.0.tgz#bbd9002adbb41972524dfafe447473fcd9778071"
   integrity sha512-nfpG1fWaV6AFVwkESnOqV9Fd09wrikuscemxBc0PNlLXXt0Q1eDskrxoLFW1MFkfjBmdRiOu/om6KRkiBpY7iw==
   dependencies:
     "@duik/content-title" "^0.4.0"
@@ -1191,14 +1191,14 @@
 
 "@duik/tabs@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/tabs/-/tabs-0.4.0.tgz#bfc8e622e14b2ecd062b9d536f2495068a0bf9e8"
+  resolved "https://registry.yarnpkg.com/@duik/tabs/-/tabs-0.4.0.tgz#bfc8e622e14b2ecd062b9d536f2495068a0bf9e8"
   integrity sha512-ouTPt1yYbUzTXVzZnOBSyabbvTXdMP3gaxa2Ajgw8Xt/z6MxR5gkne7uy+zlQc81PidMWUM/FIjJCa9FnknXTg==
   dependencies:
     "@duik/core" "^0.4.0"
 
 "@duik/text-area@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/text-area/-/text-area-0.4.0.tgz#ad020f8b7a7cdee7514f8f6331cd0d2e7daca614"
+  resolved "https://registry.yarnpkg.com/@duik/text-area/-/text-area-0.4.0.tgz#ad020f8b7a7cdee7514f8f6331cd0d2e7daca614"
   integrity sha512-V7Ni8h5k/e5NLq/r8MGn5IIe6M5wPd4MdoY8vi98oU/Yk6qz5aZuCF/kzMdV2lX3AYGYVeUgD42Xnqi38NeoOw==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1206,7 +1206,7 @@
 
 "@duik/text-field@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/text-field/-/text-field-0.4.0.tgz#11cd08b13e3a5b2a056d7ea0832e31ff2fb30a02"
+  resolved "https://registry.yarnpkg.com/@duik/text-field/-/text-field-0.4.0.tgz#11cd08b13e3a5b2a056d7ea0832e31ff2fb30a02"
   integrity sha512-QmVaXEdCuDWb6kpALB+WkOX+CY/TWLF5VsGN705iSoK14gbdSebzZNnNKQokd2xMTmnzH+TL/sIp1LI0m5IDUA==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1214,14 +1214,14 @@
 
 "@duik/toggle@^0.4.1":
   version "0.4.1"
-  resolved "https://registry.npmjs.org/@duik/toggle/-/toggle-0.4.1.tgz#d4ef35a9a421d003e574a80960d099c42ce41929"
+  resolved "https://registry.yarnpkg.com/@duik/toggle/-/toggle-0.4.1.tgz#d4ef35a9a421d003e574a80960d099c42ce41929"
   integrity sha512-dzNUbdV3lQfbmtISPiJL7FoOH80hcFBj+2VT7a8XY+0LVdW0i+/IeT84VTOrf+GVzD1imwkNqhNWK9dG+/CT2w==
   dependencies:
     "@duik/base-input" "^0.4.1"
 
 "@duik/top-bar-link-container@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/top-bar-link-container/-/top-bar-link-container-0.4.0.tgz#f8fc3f4ae7f194e174320eb39b6ce42038c2d726"
+  resolved "https://registry.yarnpkg.com/@duik/top-bar-link-container/-/top-bar-link-container-0.4.0.tgz#f8fc3f4ae7f194e174320eb39b6ce42038c2d726"
   integrity sha512-4wG1A8SMOPrLD8bpdx3LOWeg+hBhGsAScKnIJUnUj8Eq6R32HvRnyZPiscimmff32UqLGrwFwJRKR8xVjm8s3A==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1229,7 +1229,7 @@
 
 "@duik/top-bar-link@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/top-bar-link/-/top-bar-link-0.4.0.tgz#b6b85cf0fe4d5b124e271fcd03676e2af73ad15e"
+  resolved "https://registry.yarnpkg.com/@duik/top-bar-link/-/top-bar-link-0.4.0.tgz#b6b85cf0fe4d5b124e271fcd03676e2af73ad15e"
   integrity sha512-bOE/mzp3a3i6UABR9SrpIcHVuPmpLQmY9P1Cqw165fGGLqlnclvKFb7d+8t8OU7VWx4yqPwmF5ENcXuYgeehPA==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1237,7 +1237,7 @@
 
 "@duik/top-bar-menu-divider@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/top-bar-menu-divider/-/top-bar-menu-divider-0.4.0.tgz#88270638cf991bd56e77987ee617a2a5aa7a8a41"
+  resolved "https://registry.yarnpkg.com/@duik/top-bar-menu-divider/-/top-bar-menu-divider-0.4.0.tgz#88270638cf991bd56e77987ee617a2a5aa7a8a41"
   integrity sha512-Z9nNNang/0+Rg2p5p3yyirdjyEe64xlu/gj7x/IS08aIX7bWQc2+yd9LgvzHVc9p7gfrQySSyOyFSMqnY1gGVg==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1245,7 +1245,7 @@
 
 "@duik/top-bar-section@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/top-bar-section/-/top-bar-section-0.4.0.tgz#5011f9c4a4820c4fe1ef43ca85242ee20f706572"
+  resolved "https://registry.yarnpkg.com/@duik/top-bar-section/-/top-bar-section-0.4.0.tgz#5011f9c4a4820c4fe1ef43ca85242ee20f706572"
   integrity sha512-VxEv3fVGkviijlHs8ykE77BGqOL9dVco2qSH5nzksuarI9ryELY7g1R64a7xnVOSD3Qop/YPfm4Xd/fNEXCzjQ==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1253,7 +1253,7 @@
 
 "@duik/top-bar-title@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/top-bar-title/-/top-bar-title-0.4.0.tgz#3416827a29bb3ce4724d98a4ddd726d7e1b97bf2"
+  resolved "https://registry.yarnpkg.com/@duik/top-bar-title/-/top-bar-title-0.4.0.tgz#3416827a29bb3ce4724d98a4ddd726d7e1b97bf2"
   integrity sha512-s6Vvk9cPCYLeJ1QcJFJOA2g8G9ImK+53YCjbBkPhiNwbzTsx3o/zSlfs/bdEJgnbXmiUKgDlWhWvyzWRExtFzg==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1261,7 +1261,7 @@
 
 "@duik/top-bar@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/top-bar/-/top-bar-0.4.0.tgz#077ad59a44a36783f0525c86d073ca05f610acff"
+  resolved "https://registry.yarnpkg.com/@duik/top-bar/-/top-bar-0.4.0.tgz#077ad59a44a36783f0525c86d073ca05f610acff"
   integrity sha512-fCak9Wz/ajDc1PmGk21ZW8T4XB60yu8+ZbN/qWvXyww+4cskVtDxKPsCRYHICjL1fsgl5A0FnD//4mTqzA5FcA==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -1269,12 +1269,12 @@
 
 "@duik/use-open-state@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/use-open-state/-/use-open-state-0.4.0.tgz#f885ac1d358675147017fb60b541897801abaf21"
+  resolved "https://registry.yarnpkg.com/@duik/use-open-state/-/use-open-state-0.4.0.tgz#f885ac1d358675147017fb60b541897801abaf21"
   integrity sha512-on+Pvhc+lNtR2lAXCF7AOj86xXL6PE6xY+vFseGEn2QNBtb1yjdcX3zXnOqm4IpVgZFMRPRn3ssmqqcOZhWkCw==
 
 "@duik/widget@^0.4.0":
   version "0.4.0"
-  resolved "https://registry.npmjs.org/@duik/widget/-/widget-0.4.0.tgz#184d9f03f9c55e247001346b778167c03ba95639"
+  resolved "https://registry.yarnpkg.com/@duik/widget/-/widget-0.4.0.tgz#184d9f03f9c55e247001346b778167c03ba95639"
   integrity sha512-dRtVgya8/BXXSvQrWV5ZOMtdQRXWSwuPUEmj6PWNMfYSb/Iv7zQ1ximMuPrr05Ot8MSgRre7SVOIj1laCgdwxg==
   dependencies:
     "@duik/core" "^0.4.0"
@@ -2960,9 +2960,9 @@ class-utils@^0.3.5:
     static-extend "^0.1.1"
 
 classnames@^2.2.6:
-  version "2.2.6"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
-  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 clean-css@4.2.1, clean-css@4.2.x:
   version "4.2.1"
@@ -9189,14 +9189,14 @@ react-dev-utils@^9.0.4:
     text-table "0.2.0"
 
 react-dom@^16.9.0:
-  version "16.9.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
-  integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.15.0"
+    scheduler "^0.19.1"
 
 react-error-overlay@^6.0.2:
   version "6.0.2"
@@ -9315,9 +9315,9 @@ react-snap@^1.23.0:
     sourcemapped-stacktrace-node "2.1.8"
 
 react@^16.9.0:
-  version "16.9.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
-  integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -9819,10 +9819,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
-  integrity sha512-xAefmSfN6jqAa7Kuq7LIJY0bwAPG3xlCj0HMEBQk1lxYiDKZscY2xJ5U/61ZTrYbmNQbXa+gc7czPkVo11tnCg==
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"

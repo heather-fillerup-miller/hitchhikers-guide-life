@@ -14,7 +14,6 @@ import './app.module.scss';
 import { UiContext } from '@context';
 
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
-import { Analytics } from 'Analytics';
 
 import { Knowledge } from 'Knowledge';
 

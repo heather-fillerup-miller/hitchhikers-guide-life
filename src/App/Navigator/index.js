@@ -58,14 +58,14 @@ const Navigator = props => {
           [cls.isExpanded]: isExpanded
         })}
       >
-        <NavLink
+        {/* <NavLink
           pill
           Component={Link}
           icon={<Icon>gallery_grid_view</Icon>}
           to="/"
         >
           Screen Previews
-        </NavLink>
+        </NavLink> */}
         <NavLink pill icon={<Icon>view_simple</Icon>} onClick={toggleTheme}>
           Switch Dark/Light Theme
         </NavLink>
@@ -105,7 +105,7 @@ const Navigator = props => {
             Support
           </NavLink> */}
         <Divider />
-        <NavLink
+        {/* <NavLink
           pill
           className="active"
           href="https://janlosert.com/store/dashboard-ui-kit-3.html?from=docs"
@@ -119,7 +119,7 @@ const Navigator = props => {
           icon={<Icon>inbox_paper_round</Icon>}
         >
           Get Previews
-        </NavLink>
+        </NavLink> */}
       </div>
     </OuterEventsHandler>
   );

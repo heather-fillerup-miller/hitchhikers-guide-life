@@ -22,9 +22,9 @@ const SignUp = () => (
     <Widget className={cls['signup-widget-wrapper']}>
       <div className={cls['signup-content']}>
         <WidgetContent className={cls['signup-content-left']}>
-          <h2>Create Your Account</h2>
+          <h2>Create an an Account</h2>
           <p className={cls['signup-description']}>
-            Get started with Buildings and rent with love!
+            Become a healthier version of you!
           </p>
           <FormGroupContainer>
             <FormGroupContainer horizontal>
@@ -55,39 +55,39 @@ const SignUp = () => (
 
           {/* <UikDivider margin /> */}
           <br />
-          <h3 className={cls['signup-headline']}>What are you looking for?</h3>
+          <h3 className={cls['signup-headline']}>What do you want to improve?</h3>
           <LoginCardContainer>
             <LoginCard isSelected>
+              <Icon>love</Icon>
+              <p>Health</p>
+            </LoginCard>
+            <LoginCard>
+              <Icon>smile</Icon>
+              <p>Stress</p>
+            </LoginCard>
+            <LoginCard>
               <Icon>wallet</Icon>
-              <p>Rent</p>
-            </LoginCard>
-            <LoginCard>
-              <Icon>lightbulb</Icon>
-              <p>Co-work</p>
-            </LoginCard>
-            <LoginCard>
-              <Icon>rocket</Icon>
-              <p>Invest</p>
+              <p>Finances</p>
             </LoginCard>
           </LoginCardContainer>
 
           <Button Component={Link} success block to="/knowledge">
-            Get Started With Buildings!
+            Get Guidance to a Better Life!
           </Button>
         </WidgetContent>
         <div className={cls['signup-content-right']}>
           <h3 className={cls['signup-headline']}>
-            <Icon mr>building</Icon> Buildings
+            <Icon mr>view_list</Icon> Hitchhiker's Guide to a Better Life
           </h3>
           <p className={cls['signup-description']}>
-            Architecture begins when you place two bricks carefully together.
+          All you really need to know for the moment is that the universe is a lot more complicated than you might think, even if you start from a position of thinking it’s pretty damn complicated in the first place.
           </p>
-          <Avatar imgUrl={images.a11} name="Ludwig Mies van der Rohe" sm />
+          <Avatar imgUrl={images.da1} name="Douglas Adams" sm />
         </div>
       </div>
     </Widget>
     <p>
-      Already on Buildings? Let us take you to <a>Sign In!</a>
+      Already on HG to a Better Life? Let us take you to <a>Sign In!</a>
     </p>
   </div>
 );
