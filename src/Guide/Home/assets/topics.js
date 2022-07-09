@@ -4,8 +4,8 @@ import * as images from '@exampleAssets';
 export default [
   {
     title: 'Learn how to use this guide',
-    description: 'Last edited 2 days ago by Eugene Jenkins',
-    isAdmin: true,
+    description: 'Last completed 2 days ago by',
+    taskNo: 1,
     icon: {
       color: 'blue',
       name: 'inbox_paper_round'
@@ -22,8 +22,10 @@ export default [
     ]
   },
   {
-    title: 'Create Your Profile',
-    description: 'Last edited 3 days ago by Erik Page',
+    title: 'Update Your Profile and Goals',
+    description: 'Last completed 3 days ago by',
+    taskNo: 2,
+    letsDoItUrl: '/guide/profile',
     icon: {
       color: 'blue',
       name: 'inbox_paper_round'
@@ -40,45 +42,8 @@ export default [
     ]
   },
   {
-    title: 'Define Your Goals',
-    description: 'Last edited a week ago by Joana Jenkins',
-    icon: {
-      color: 'blue',
-      name: 'inbox_paper_round'
-    },
-    users: [
-      {
-        imgUrl: images.a03,
-        rightEl: <img alt="comment" src={images.ua01} />
-      },
-      {
-        imgUrl: images.a02,
-        rightEl: <img alt="comment" src={images.ua01} />
-      }
-    ]
-  },
-  {
-    title: 'Tell Us About Your Interests',
-    description: 'Last edited a week ago by Todd Singleton',
-    icon: {
-      color: 'blue',
-      name: 'inbox_paper_round'
-    },
-    isAdmin: true,
-    users: [
-      {
-        imgUrl: images.a04,
-        rightEl: <img alt="like" src={images.ua02} />
-      },
-      {
-        imgUrl: images.a02,
-        rightEl: <img alt="comment" src={images.ua01} />
-      }
-    ]
-  },
-  {
-    title: 'Let\'s Make a Diet Plan',
-    description: 'Last edited a week ago by Erik Page',
+    title: 'Make a Diet Plan for Today',
+    description: 'Last completed 4 hours ago by',
     icon: {
       color: 'violet',
       name: 'stats'
@@ -95,8 +60,8 @@ export default [
     ]
   },
   {
-    title: 'Let\'s Make a Fitness Plan',
-    description: 'Last edited a week ago by Myrtie Greer',
+    title: 'Make a Fitness Plan for Today',
+    description: 'Last completed 1 hour ago by',
     icon: {
       color: 'violet',
       name: 'stats'
@@ -113,8 +78,8 @@ export default [
     ]
   },
   {
-    title: 'Let\'s Make a Financial Plan',
-    description: 'Last edited a week ago by Myrtie Greer',
+    title: 'Make a Mental Wellness Plan for Today',
+    description: 'Last completed 12 hours ago by',
     icon: {
       color: 'green',
       name: 'money_round'

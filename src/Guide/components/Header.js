@@ -46,8 +46,8 @@ const GuideHeader = ({ isMenuOpen, toggleMenu }) => {
           }}
         >
           <DropdownItem>Settings</DropdownItem>
-          <DropdownItem Component={Link} to='/guide/settings'> Your Profile</DropdownItem>
-          <DropdownItem>Help & Support center</DropdownItem>
+          <DropdownItem Component={Link} to='/guide/profile'> Your Profile</DropdownItem>
+          <DropdownItem>Help & Support</DropdownItem>
           <DropdownItem Component={Link} to='/guide/sign-up'>Logout</DropdownItem>
         </TopBarUserDropdown>
       </TopBarSection>

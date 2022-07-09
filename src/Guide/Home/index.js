@@ -30,7 +30,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
           <div className={cls['guide-home']}>
             <div>
               <h2 className={cls['guide-home-title']}>
-                Suggested Actions
+                Today's Suggested Actions
               </h2>
               <p>Home / About / Store / News / Contact </p>
               <div className={cls['guide-list']}>
