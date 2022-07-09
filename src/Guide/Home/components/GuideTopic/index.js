@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classnames from 'classnames';
 
 import { Avatar, Widget, Dropdown, DropdownItem } from '@duik/it';
@@ -14,7 +15,8 @@ const GuideTopic = ({
   title,
   description,
   users,
-  isAdmin,
+  taskNo,
+  letsDoItUrl,
   ...rest
 }) => (
   <Component
@@ -29,11 +31,9 @@ const GuideTopic = ({
     <div className={cls['guide-list-topic-content']}>
       <h2 className={cls['guide-list-topic-title']}>
         <a className={cls['guide-list-topic-link']}>{title}</a>
-        {isAdmin && (
           <Badge className={cls['guide-list-topic-tag']} color="green">
-            Admin
+            {taskNo}
           </Badge>
-        )}
       </h2>
       <p>{description}</p>
     </div>
@@ -44,17 +44,14 @@ const GuideTopic = ({
         ))}
       </div>
     )}
-    {isAdmin && (
       <Dropdown
         className={cls['guide-list-topic-action']}
         menuPosition="bottom-left"
       >
-        <DropdownItem>Settings</DropdownItem>
-        <DropdownItem>Your Profile</DropdownItem>
-        <DropdownItem>Help & Support center</DropdownItem>
-        <DropdownItem>Logout</DropdownItem>
+        <DropdownItem Component={ Link } to={letsDoItUrl} >Let's Do It!</DropdownItem>
+        <DropdownItem>Maybe Later...</DropdownItem>
+        <DropdownItem>No thanks</DropdownItem>
       </Dropdown>
-    )}
   </Component>
 );
 

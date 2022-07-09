@@ -161,7 +161,7 @@ const Profile = () => {
                       {(optionCountry.value === 'us') && <FormGroup>
                         <Select
                           block
-                          label="City"
+                          label="State"
                           options={optionsCities}
                           onOptionClick={onClickCity}
                           activeOption={optionCity}

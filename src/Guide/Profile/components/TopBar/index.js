@@ -5,17 +5,17 @@ import {
   TopBarTitle,
 } from '@duik/it'
 
-import Template from '../../../components/TopBar'
+import TopBarTemplate from '../ProfileOptions'
 
 
 const SettingsListingTopBar = props => (
-  <Template { ...props }>
+  <TopBarTemplate { ...props } >
     <TopBarSection>
       <TopBarTitle>
         Profile Settings
       </TopBarTitle>
     </TopBarSection>
-  </Template>
+  </TopBarTemplate>
 )
 
 

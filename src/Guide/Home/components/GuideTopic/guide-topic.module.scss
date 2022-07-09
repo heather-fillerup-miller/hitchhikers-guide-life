@@ -35,7 +35,7 @@
   }
   &-users {
     display: flex;
-    justify-content: flex-end;
+    padding: 10px;
     & > * + * {
       margin-left: 10px;
     }

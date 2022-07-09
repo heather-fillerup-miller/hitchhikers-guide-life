@@ -7,13 +7,12 @@ import { Divider, Button, DropdownItem, TopBar, TopBarSection, TextField } from 
 import { NavBurger } from "@components";
 
 import { UiContext } from "@context";
-import { SelectCountry } from "@composed";
 
 import cls from "./top-bar.module.scss";
-import TopBarUserDropdown from "../TopBarUserDropdown";
+import TopBarUserDropdown from "../../../components/TopBarUserDropdown";
 import * as images from '@exampleAssets';
 
-const Template = ({ children, className, isMenuOpen, rightEl }) => {
+const TopBarTemplate = ({ children, className, isMenuOpen, rightEl }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <TopBar className={classnames(cls["top-bar"], className)}>
@@ -44,8 +43,8 @@ const Template = ({ children, className, isMenuOpen, rightEl }) => {
           }}
         >
           <DropdownItem>Settings</DropdownItem>
-          <DropdownItem Component={Link} to='/guide/settings'> Your Profile</DropdownItem>
-          <DropdownItem>Help & Support center</DropdownItem>
+          <DropdownItem Component={Link} to='/guide/home'> Home</DropdownItem>
+          <DropdownItem>Help & Support</DropdownItem>
           <DropdownItem Component={Link} to='/guide/sign-up'>Logout</DropdownItem>
         </TopBarUserDropdown>
       </TopBarSection>
@@ -53,10 +52,10 @@ const Template = ({ children, className, isMenuOpen, rightEl }) => {
   );
 };
 
-Template.defaultProps = {
+TopBarTemplate.defaultProps = {
   children: null,
   className: null,
-  rightEl: null
+  rightEl: null,
 };
 
-export default Template;
+export default TopBarTemplate;
