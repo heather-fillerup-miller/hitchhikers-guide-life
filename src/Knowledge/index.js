@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Home from './Home';
 import DocumentationPage from './DocumentationPage';
 import SignUp from './SignUp';
 import UserSettings from './UserSettings';
+import Login from './Login';
 
 export const Knowledge = () => {
 
@@ -14,7 +15,8 @@ export const Knowledge = () => {
       <Route component={Home} exact path="/knowledge" strict />
       <Route component={DocumentationPage} exact path="/knowledge/doc" strict />
       <Route component={UserSettings} exact path="/knowledge/settings" strict />
-      <Redirect to="/knowledge" />
+      <Route component={Login} exact path="/knowledge/login" strict />
+      <Redirect to="/knowledge/" />
     </Switch>
   );
 };

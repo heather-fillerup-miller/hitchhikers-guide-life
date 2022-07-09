@@ -2,33 +2,33 @@ import React from 'react'
 import classnames from 'classnames'
 import Icon from '@duik/icon'
 
-import cls from './signup-card.module.scss'
+import cls from './login-card.module.scss'
 
 
-const signupCard = ({
+const LoginCard = ({
   children,
   className,
   isSelected,
   ...rest
 }) => (
   <button
-    className={ classnames(cls['signup-card'], className, {
-      [cls['signup-card-selected']]: isSelected,
+    className={ classnames(cls['login-card'], className, {
+      [cls['login-card-selected']]: isSelected,
     }) }
     type="button"
     { ...rest }
   >
     {children}
-    <Icon className={ cls['signup-card-check'] }>
+    <Icon className={ cls['login-card-check'] }>
       check
     </Icon>
   </button>
 )
 
 
-signupCard.defaultProps = {
+LoginCard.defaultProps = {
   className: null,
   isSelected: false,
 }
 
-export default signupCard
+export default LoginCard

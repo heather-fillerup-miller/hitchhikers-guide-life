@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import Icon from '@duik/icon';
 import { OuterEventsHandler, NavLink, Divider } from '@duik/it';
 

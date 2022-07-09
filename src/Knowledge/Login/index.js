@@ -12,31 +12,22 @@ import {
 } from '@duik/it';
 
 import * as images from '@exampleAssets';
-import cls from './signup.module.scss';
+import cls from './login.module.scss';
 
 import LoginCard from './components/Card';
 import LoginCardContainer from './components/CardContainer';
 
-const SignUp = () => {
+const Login = () => {
   return (
-    <div className={cls['page-signup-wrapper']}>
-    <Widget className={cls['signup-widget-wrapper']}>
-      <div className={cls['signup-content']}>
-        <WidgetContent className={cls['signup-content-left']}>
-          <h2>Create an an Account</h2>
-          <p className={cls['signup-description']}>
-            Become a healthier version of you!
+    <div className={cls['page-login-wrapper']}>
+    <Widget className={cls['login-widget-wrapper']}>
+      <div className={cls['login-content']}>
+        <WidgetContent className={cls['login-content-left']}>
+          <h2 id='login-description'>Login to Your Account</h2>
+          <p className={cls['login-description']}>
+           Take time today to improve on yourself!
           </p>
           <FormGroupContainer>
-            <FormGroupContainer horizontal>
-              <FormGroup>
-                <TextField label="Name" name="name" />
-              </FormGroup>
-              <FormGroup>
-                <TextField label="Surname" name="surname" />
-              </FormGroup>
-            </FormGroupContainer>
-
             <FormGroup>
               <TextField
                 label="E-mail address"
@@ -56,7 +47,7 @@ const SignUp = () => {
 
           {/* <UikDivider margin /> */}
           <br />
-          <h3 className={cls['signup-headline']}>What do you want to improve?</h3>
+          <h3 className={cls['login-headline']}>What do you want to improve?</h3>
           <LoginCardContainer>
             <LoginCard isSelected>
               <Icon>love</Icon>
@@ -76,24 +67,22 @@ const SignUp = () => {
             Get Guidance to a Better Life!
           </Button>
         </WidgetContent>
-        <div className={cls['signup-content-right']}>
-          <h3 className={cls['signup-headline']}>
+        <div className={cls['login-content-right']}>
+          <h3 className={cls['login-headline']}>
             <Icon mr>view_list</Icon> Hitchhiker's Guide to a Better Life
           </h3>
-          <p className={cls['signup-description']}>
-          All you really need to know for the moment is that the universe is a lot more complicated than you might think, even if you start from a position of thinking it’s pretty damn complicated in the first place.
+          <p className={cls['login-description']}>
+          This planet has - or rather had - a problem, which was this: most of the people living on it were unhappy for pretty much of the time. Many solutions were suggested for this problem, but most of these were largely concerned with the movement of small green pieces of paper, which was odd because on the whole it wasn't the small green pieces of paper that were unhappy.”
           </p>
           <Avatar imgUrl={images.da1} name="Douglas Adams" sm />
         </div>
       </div>
     </Widget>
     <p>
-      Already on HG to a Better Life? Let us take you to <Button Component={Link} sm block to="/knowledge/login">
-            Login <Icon ml>profile_round</Icon>
-          </Button>
+      Already on HG to a Better Life? Let us take you to <a>Sign In!</a>
     </p>
   </div>
   );
   };
 
-export default SignUp;
+export default Login;
