@@ -73,15 +73,6 @@ const Navigator = props => {
         <NavLink
           pill
           Component="a"
-          icon={<Icon>rocket</Icon>}
-          href="https://developer.dashboard-ui.com/docs/react/installation"
-          target="_blank"
-        >
-          Installation Guide
-        </NavLink>
-        <NavLink
-          pill
-          Component="a"
           icon={<Icon>view_list</Icon>}
           href="https://developer.dashboard-ui.com/docs/react/installation"
           target="_blank"

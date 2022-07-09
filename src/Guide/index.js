@@ -12,7 +12,7 @@ export const Guide = () => {
     <Switch>
       <Route component={SignUp} exact path="/guide/" strict />
       <Route component={Home} exact path="/guide/home" strict />
-      <Route component={Profile} exact path="/guide/settings" strict />
+      <Route component={Profile} exact path="/guide/profile" strict />
       <Route component={Login} exact path="/guide/login" strict />
       <Redirect to="/guide/" />
     </Switch>
