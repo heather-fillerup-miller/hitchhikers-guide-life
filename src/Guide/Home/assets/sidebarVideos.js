@@ -2,27 +2,27 @@ import * as images from '@exampleAssets'
 
 export default [
   {
-    title: 'Your first platform',
+    title: 'Diet Sustainably',
     views: 3874,
     imgUrl: images.vt01,
   },
   {
-    title: 'Intro to web design',
+    title: 'Intro to Macronutrients',
     views: 19238,
     imgUrl: images.vt05,
   },
   {
-    title: 'Web elements',
+    title: 'Cryptocurrency 101',
     views: 2843,
     imgUrl: images.vt04,
   },
   {
-    title: 'CSS styling',
+    title: 'Find Inner Peace with Meditation',
     views: 16482,
     imgUrl: images.vt03,
   },
   {
-    title: 'Interaction & Animations',
+    title: 'To Stretch or Not to Stretch',
     views: 7894,
     imgUrl: images.vt02,
   },

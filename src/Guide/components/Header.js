@@ -30,7 +30,7 @@ const GuideHeader = ({ isMenuOpen, toggleMenu }) => {
       <TopBarSection>
         <TopBarTitle>
           <Icon>help</Icon>
-          Guide
+          Hitchhiker's Guide to a Better Life
         </TopBarTitle>
       </TopBarSection>
       <TopBarSection className={cls['guide-top-bar-actions']}>
@@ -42,7 +42,7 @@ const GuideHeader = ({ isMenuOpen, toggleMenu }) => {
         <TopBarUserDropdown
           user={{
             imgUrl: images.a10,
-            name: 'Minnie'
+            name: 'Heather'
           }}
         >
           <DropdownItem>Settings</DropdownItem>

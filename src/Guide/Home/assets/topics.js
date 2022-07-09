@@ -3,7 +3,7 @@ import * as images from '@exampleAssets';
 
 export default [
   {
-    title: 'Getting Started',
+    title: 'Learn how to use this guide',
     description: 'Last edited 2 days ago by Eugene Jenkins',
     isAdmin: true,
     icon: {
@@ -22,7 +22,7 @@ export default [
     ]
   },
   {
-    title: 'Responsive Design',
+    title: 'Create Your Profile',
     description: 'Last edited 3 days ago by Erik Page',
     icon: {
       color: 'indigo',
@@ -40,7 +40,7 @@ export default [
     ]
   },
   {
-    title: 'Layout & Positioning Basics',
+    title: 'Define Your Goals',
     description: 'Last edited a week ago by Joana Jenkins',
     icon: {
       color: 'red',
@@ -58,7 +58,7 @@ export default [
     ]
   },
   {
-    title: 'Photoshop Fundamentals',
+    title: 'Tell Us About Your Interests',
     description: 'Last edited a week ago by Todd Singleton',
     icon: {
       color: 'green',
@@ -77,7 +77,7 @@ export default [
     ]
   },
   {
-    title: 'Sketch Fundamentals',
+    title: 'Let\'s Make a Plan for Improvement',
     description: 'Last edited a week ago by Erik Page',
     icon: {
       color: 'orange',
@@ -95,7 +95,7 @@ export default [
     ]
   },
   {
-    title: 'Advanced Sketch',
+    title: 'Monitor Your Progress Through Tracking',
     description: 'Last edited a week ago by Myrtie Greer',
     icon: {
       color: 'indigo',

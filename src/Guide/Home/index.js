@@ -30,9 +30,9 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
           <div className={cls['knowledge-home']}>
             <div>
               <h2 className={cls['knowledge-home-title']}>
-                Guide Documentation
+                Suggested Actions
               </h2>
-              <p>Home / All Tutorials</p>
+              <p>Home / About / Store / News / Contact </p>
               <div className={cls['knowledge-list']}>
                 {topics.map(item => (
                   <div key={item.title}>
@@ -49,7 +49,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
             >
               <Widget>
                 <WidgetHeader>
-                  <h3>Navigation</h3>
+                  <h3>Topics </h3>
                 </WidgetHeader>
                 {sidebarNavigation.map(item => (
                   <WidgetLink key={item.title} {...item} />
@@ -57,7 +57,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               </Widget>
               <Widget>
                 <WidgetHeader>
-                  <h3>Popular Video Tutorials</h3>
+                  <h3>Suggested Motivational Videos</h3>
                 </WidgetHeader>
                 <div className={cls['knowledge-video-preview-container']}>
                   {sidebarVideos.map(item => (

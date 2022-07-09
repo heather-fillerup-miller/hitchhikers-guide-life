@@ -43,11 +43,4 @@ export default [
       type: 'square',
     },
   },
-  {
-    title: 'Without icon here',
-    rightEl: 12,
-  },
-  {
-    title: 'Just a navigation title',
-  },
 ]
