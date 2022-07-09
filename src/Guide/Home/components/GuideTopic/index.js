@@ -51,7 +51,7 @@ const GuideTopic = ({
       >
         <DropdownItem>Settings</DropdownItem>
         <DropdownItem>Your Profile</DropdownItem>
-        <DropdownItem>Help & Support center</DropdownItem>
+        <DropdownItem>Help & Support</DropdownItem>
         <DropdownItem>Logout</DropdownItem>
       </Dropdown>
     )}
