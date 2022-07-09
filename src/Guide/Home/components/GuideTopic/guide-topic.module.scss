@@ -1,6 +1,6 @@
 @import '@duik/core/_vars.scss';
 
-.knowledge-list-topic {
+.guide-list-topic {
   display: flex;
   align-items: center;
   transition: 0.2s;
@@ -43,7 +43,7 @@
 }
 
 @media screen and (max-width: 880px) {
-  .knowledge-list-topic {
+  .guide-list-topic {
     flex-wrap: wrap;
     padding-left: 102px !important;
     position: relative;
@@ -60,7 +60,7 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .knowledge-list-topic {
+  .guide-list-topic {
     padding-left: 15px !important;
     padding-top: 112px !important;
     justify-content: center;

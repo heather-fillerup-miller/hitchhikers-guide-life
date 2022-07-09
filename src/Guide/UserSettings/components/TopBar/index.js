@@ -12,7 +12,7 @@ const SettingsListingTopBar = props => (
   <Template { ...props }>
     <TopBarSection>
       <TopBarTitle>
-        Settings
+        Profile Settings
       </TopBarTitle>
     </TopBarSection>
   </Template>

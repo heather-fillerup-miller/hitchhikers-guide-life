@@ -4,6 +4,19 @@ import cls from './selectcountry.module.scss';
 
 export default [
   {
+    value: 'us',
+    label: (
+      <span className={cls['select-option-country-content']}>
+        <img
+          alt="english"
+          className={cls['select-option-flag']}
+          src={images.fUnitedStates}
+        />
+        UnitedStates
+      </span>
+    )
+  },
+  {
     value: 'czech',
     label: (
       <span className={cls['select-option-country-content']}>

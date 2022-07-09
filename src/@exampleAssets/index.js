@@ -15,41 +15,6 @@ export { default as t04 } from './t04.jpg';
 export { default as t05 } from './t05.jpg';
 export { default as t06 } from './t06.jpg';
 
-// buildings
-export { default as b01 } from './buildings/b01.jpg';
-export { default as b02 } from './buildings/b02.jpg';
-export { default as b03 } from './buildings/b03.jpg';
-export { default as b04 } from './buildings/b04.jpg';
-export { default as b05 } from './buildings/b05.jpg';
-export { default as b06 } from './buildings/b06.jpg';
-export { default as b07 } from './buildings/b07.jpg';
-export { default as b08 } from './buildings/b08.jpg';
-export { default as b09 } from './buildings/b09.jpg';
-export { default as b10 } from './buildings/b10.jpg';
-export { default as b11 } from './buildings/b11.jpg';
-export { default as b12 } from './buildings/b12.jpg';
-export { default as b13 } from './buildings/b13.jpg';
-export { default as b14 } from './buildings/b14.jpg';
-export { default as b15 } from './buildings/b15.jpg';
-export { default as b16 } from './buildings/b16.jpg';
-export { default as b17 } from './buildings/b17.jpg';
-export { default as b18 } from './buildings/b18.jpg';
-export { default as b19 } from './buildings/b19.jpg';
-export { default as b20 } from './buildings/b20.jpg';
-export { default as b21 } from './buildings/b21.jpg';
-export { default as b22 } from './buildings/b22.jpg';
-export { default as b23 } from './buildings/b23.jpg';
-export { default as b24 } from './buildings/b24.jpg';
-export { default as b25 } from './buildings/b25.jpg';
-export { default as b26 } from './buildings/b26.jpg';
-export { default as b101 } from './buildings/b101.jpg';
-export { default as b102 } from './buildings/b102.jpg';
-export { default as b103 } from './buildings/b103.jpg';
-export { default as b104 } from './buildings/b104.jpg';
-export { default as b105 } from './buildings/b105.jpg';
-
-export { default as map } from './buildings/map.jpg';
-
 // flags
 export { default as flag01 } from './flag01.jpg';
 
@@ -63,6 +28,7 @@ export { default as fUk } from './flags/Uk.png';
 export { default as fFrance } from './flags/France.png';
 export { default as fTuvalu } from './flags/Tuvalu.png';
 export { default as fNorway } from './flags/Norway.png';
+export { default as fUnitedStates } from './flags/UnitedStates.jpeg';
 
 // places
 export { default as pl01 } from './pl01.jpg';

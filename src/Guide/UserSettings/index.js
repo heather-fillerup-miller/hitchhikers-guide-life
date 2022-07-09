@@ -67,36 +67,36 @@ const SettingsDashboard = () => {
     <ContainerVertical>
       <TopBar
         rightEl={
-          <div className={cls['buildings-user-progress-container']}>
+          <div className={cls['guide-user-progress-container']}>
             <p>Profile Completeness: 70%</p>
-            <Progress className={cls['buildings-user-progress']} fill={0.7} />
+            <Progress className={cls['guide-user-progress']} fill={0.7} />
           </div>
         }
       />
       <ScrollArea>
-        <div className={cls['buildings-user-layout']}>
-          <WidgetContainer className={cls['buildings-user-sub-nav']}>
+        <div className={cls['guide-user-layout']}>
+          <WidgetContainer className={cls['guide-user-sub-nav']}>
             <Widget>
               <div
-                className={cls['buildings-user-profile-pic']}
+                className={cls['guide-user-profile-pic']}
                 style={{ backgroundImage: `url("${ImgUserProfile}")` }}
               />
-              <WidgetContent className={cls['buildings-user-meta']}>
-                <h2>Ethel Harvey</h2>
+              <WidgetContent className={cls['guide-user-meta']}>
+                <h2>Heather Fillerup</h2>
                 <p>
-                  {'Caracas, Venezuela'}
+                  {'Dallas, TX United States'}
                   <br />
                   {'Your time: 4:32 PM (GMT-4)'}
                 </p>
               </WidgetContent>
               <Divider />
-              <div className={cls['buildings-user-menu']}>
+              <div className={cls['guide-user-menu']}>
                 <NavSection>
                   {links.map(link => (
                     <NavLinkKit
                       key={link.to}
                       Component={NavLink}
-                      to={`/buildings/user${link.to}`}
+                      to={`/guide/user${link.to}`}
                     >
                       {link.text}
                     </NavLinkKit>
@@ -108,8 +108,7 @@ const SettingsDashboard = () => {
           <WidgetContainer>
             <Widget>
               <WidgetContent>
-                <h3>Basic Profile</h3>
-                <p>This information can be edited from your profile page.</p>
+                <h3>Demographics</h3>
               </WidgetContent>
               <Divider />
               <form onSubmit={() => {}}>
@@ -118,14 +117,14 @@ const SettingsDashboard = () => {
                     <FormGroupContainer horizontal>
                       <FormGroup>
                         <TextField
-                          defaultValue="Ethel"
+                          defaultValue="Heather"
                           label="First Name"
                           name="first_name"
                         />
                       </FormGroup>
                       <FormGroup>
                         <TextField
-                          defaultValue="Harvey"
+                          defaultValue="Fillerup"
                           label="Last Name"
                           name="last_name"
                         />
@@ -134,7 +133,7 @@ const SettingsDashboard = () => {
                     <FormGroupContainer horizontal>
                       <FormGroup>
                         <TextField
-                          defaultValue="ethel.harvey@janlosert.com"
+                          defaultValue="heather.fillerup@email.com"
                           label="Email Address"
                           name="email"
                         />
@@ -180,11 +179,9 @@ const SettingsDashboard = () => {
             </Widget>
             <Widget>
               <WidgetContent>
-                <h3>Notifications</h3>
+                <h3>Life Goals</h3>
                 <p>
-                  Receive notifications, requests to write a review, pricing
-                  notices, and other reminders related to your activities on
-                  Building platform.
+                  Choose life goals that you are currently interested in. These options will personalize your suggested actions and motivational videos.
                 </p>
               </WidgetContent>
               <form onSubmit={() => {}}>
@@ -192,22 +189,34 @@ const SettingsDashboard = () => {
                 <WidgetContent>
                   <FormGroupContainer horizontal>
                     <FormGroupContainer>
-                      <h4>Promotions</h4>
+                      <h4>Fitness</h4>
                       <Checkbox
                         defaultChecked
-                        label="Email"
-                        name="[promotions]email"
+                        label="Weight Loss"
+                        name="[fitness]weight-loss"
                       />
                       <Checkbox
-                        description="For your mobile or tablet device"
-                        label="Push Notifications"
-                        name="[promotions]push"
+                        label="Strength Training"
+                        name="[fintess]strenght-training"
                       />
-                      <Checkbox label="Text Messages" name="[promotions]text" />
-                      <Checkbox label="Phone Calls" name="[promotions]phone" />
+                      <Checkbox label="Vegetarian Diet" name="[fintess]vegetarian" />
+                      <Checkbox label="Vegan Diet" name="[fintess]vegan" />
+                      <Checkbox label="Keto Diet" name="[fintess]keto" />
+                      <Checkbox label="Mediterranean Diet" name="[fintess]med" />
                     </FormGroupContainer>
                     <FormGroupContainer>
-                      <h4>Messages</h4>
+                      <h4>Mental</h4>
+                      <Checkbox label="Email" name="[messages]email" />
+                      <Checkbox
+                        defaultChecked
+                        description="For your mobile or tablet device"
+                        label="Push Notifications"
+                        name="[messages]push"
+                      />
+                      <Checkbox label="Text Messages" name="[messages]text" />
+                    </FormGroupContainer>
+                    <FormGroupContainer>
+                      <h4>Financial</h4>
                       <Checkbox label="Email" name="[messages]email" />
                       <Checkbox
                         defaultChecked

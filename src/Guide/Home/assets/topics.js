@@ -8,7 +8,7 @@ export default [
     isAdmin: true,
     icon: {
       color: 'blue',
-      name: 'love'
+      name: 'inbox_paper_round'
     },
     users: [
       {
@@ -25,8 +25,8 @@ export default [
     title: 'Create Your Profile',
     description: 'Last edited 3 days ago by Erik Page',
     icon: {
-      color: 'indigo',
-      name: 'image_picture'
+      color: 'blue',
+      name: 'inbox_paper_round'
     },
     users: [
       {
@@ -43,8 +43,8 @@ export default [
     title: 'Define Your Goals',
     description: 'Last edited a week ago by Joana Jenkins',
     icon: {
-      color: 'red',
-      name: 'container'
+      color: 'blue',
+      name: 'inbox_paper_round'
     },
     users: [
       {
@@ -61,8 +61,8 @@ export default [
     title: 'Tell Us About Your Interests',
     description: 'Last edited a week ago by Todd Singleton',
     icon: {
-      color: 'green',
-      name: 'edit'
+      color: 'blue',
+      name: 'inbox_paper_round'
     },
     isAdmin: true,
     users: [
@@ -77,11 +77,11 @@ export default [
     ]
   },
   {
-    title: 'Let\'s Make a Plan for Improvement',
+    title: 'Let\'s Make a Diet Plan',
     description: 'Last edited a week ago by Erik Page',
     icon: {
-      color: 'orange',
-      name: 'gallery_grid_view'
+      color: 'violet',
+      name: 'stats'
     },
     users: [
       {
@@ -95,11 +95,11 @@ export default [
     ]
   },
   {
-    title: 'Monitor Your Progress Through Tracking',
+    title: 'Let\'s Make a Fitness Plan',
     description: 'Last edited a week ago by Myrtie Greer',
     icon: {
-      color: 'indigo',
-      name: 'image_picture'
+      color: 'violet',
+      name: 'stats'
     },
     users: [
       {
@@ -113,11 +113,11 @@ export default [
     ]
   },
   {
-    title: 'How to setup 1170px grid in Sketch',
+    title: 'Let\'s Make a Financial Plan',
     description: 'Last edited a week ago by Myrtie Greer',
     icon: {
-      name: 'multitasking',
-      color: 'orange'
+      color: 'green',
+      name: 'money_round'
     },
     users: [
       {

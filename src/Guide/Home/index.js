@@ -13,7 +13,7 @@ import { WidgetLink, WidgetVideoPreview } from '@components';
 
 import Header from '../components/Header';
 
-import cls from './knowledge-home.module.scss';
+import cls from './guide-home.module.scss';
 
 import topics from './assets/topics';
 import sidebarNavigation from './assets/sidebarNavigation';
@@ -27,13 +27,13 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
       <Header />
       <ContainerHorizontal>
         <ScrollArea>
-          <div className={cls['knowledge-home']}>
+          <div className={cls['guide-home']}>
             <div>
-              <h2 className={cls['knowledge-home-title']}>
+              <h2 className={cls['guide-home-title']}>
                 Suggested Actions
               </h2>
               <p>Home / About / Store / News / Contact </p>
-              <div className={cls['knowledge-list']}>
+              <div className={cls['guide-list']}>
                 {topics.map(item => (
                   <div key={item.title}>
                     <GuideTopic key={item.title} {...item} />
@@ -42,8 +42,8 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               </div>
             </div>
             <div
-              className={classnames(cls['knowledge-home-menu-container'], {
-                [cls['knowledge-home-menu-container-open']]:
+              className={classnames(cls['guide-home-menu-container'], {
+                [cls['guide-home-menu-container-open']]:
                   uiContext.menu.isVisible
               })}
             >
@@ -59,7 +59,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
                 <WidgetHeader>
                   <h3>Suggested Motivational Videos</h3>
                 </WidgetHeader>
-                <div className={cls['knowledge-video-preview-container']}>
+                <div className={cls['guide-video-preview-container']}>
                   {sidebarVideos.map(item => (
                     <WidgetVideoPreview key={item.title} {...item} />
                   ))}

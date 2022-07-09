@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import { Avatar, Widget, Dropdown, DropdownItem } from '@duik/it';
 import { IconWrap, Badge } from '@components';
 
-import cls from './knowledge-topic.module.scss';
+import cls from './guide-topic.module.scss';
 
 const GuideTopic = ({
   children,
@@ -18,19 +18,19 @@ const GuideTopic = ({
   ...rest
 }) => (
   <Component
-    className={classnames(cls['knowledge-list-topic'], className)}
+    className={classnames(cls['guide-list-topic'], className)}
     padding
     {...rest}
   >
     <IconWrap
       {...icon}
-      className={classnames(cls['knowledge-list-topic-icon'], iconClassName)}
+      className={classnames(cls['guide-list-topic-icon'], iconClassName)}
     />
-    <div className={cls['knowledge-list-topic-content']}>
-      <h2 className={cls['knowledge-list-topic-title']}>
-        <a className={cls['knowledge-list-topic-link']}>{title}</a>
+    <div className={cls['guide-list-topic-content']}>
+      <h2 className={cls['guide-list-topic-title']}>
+        <a className={cls['guide-list-topic-link']}>{title}</a>
         {isAdmin && (
-          <Badge className={cls['knowledge-list-topic-tag']} color="green">
+          <Badge className={cls['guide-list-topic-tag']} color="green">
             Admin
           </Badge>
         )}
@@ -38,7 +38,7 @@ const GuideTopic = ({
       <p>{description}</p>
     </div>
     {users && (
-      <div className={cls['knowledge-list-topic-users']}>
+      <div className={cls['guide-list-topic-users']}>
         {users.map(user => (
           <Avatar key={user.imgUrl} {...user} />
         ))}
@@ -46,7 +46,7 @@ const GuideTopic = ({
     )}
     {isAdmin && (
       <Dropdown
-        className={cls['knowledge-list-topic-action']}
+        className={cls['guide-list-topic-action']}
         menuPosition="bottom-left"
       >
         <DropdownItem>Settings</DropdownItem>

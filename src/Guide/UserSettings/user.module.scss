@@ -1,6 +1,6 @@
 @import '@duik/core/_vars.scss';
 
-.buildings-user {
+.guide-user {
   &-progress-container {
     display: flex;
     align-items: center;
@@ -78,11 +78,11 @@
     @media screen and (max-width: 1050px) {
       flex-wrap: wrap;
 
-      .buildings-user-sub-nav {
+      .guide-user-sub-nav {
         flex-grow: 1;
       }
 
-      .buildings-user-profile-pic {
+      .guide-user-profile-pic {
         padding-top: 300px;
         @include backgroundCover();
       }

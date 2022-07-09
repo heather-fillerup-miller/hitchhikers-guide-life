@@ -1,45 +1,54 @@
 export default [
   {
-    title: 'For Beginners',
-    rightEl: 17,
+    title: 'Tasks',
+    rightEl: 43,
     icon: {
       color: 'blue',
-      name: 'love',
+      name: 'inbox_paper_round',
       type: 'square',
     },
   },
   {
-    title: 'Advanced Techniques',
+    title: 'Physical Fitness',
     rightEl: 18,
     icon: {
       color: 'violet',
-      name: 'image_picture',
+      name: 'stats',
       type: 'square',
     },
   },
   {
-    title: 'Design Principles',
+    title: 'Mental Wellbeing',
     rightEl: 1,
     icon: {
       color: 'red',
-      name: 'container',
+      name: 'view_simple',
       type: 'square',
     },
   },
   {
-    title: 'Integrations',
+    title: 'Spiritual Guidance',
     rightEl: 12,
     icon: {
-      color: 'orange',
-      name: 'gallery_grid_view',
+      color: 'yellow',
+      name: 'lightbulb',
       type: 'square',
     },
   },
   {
-    title: 'Others',
+    title: 'Socialize',
     rightEl: 7,
     icon: {
-      name: 'multitasking',
+      name: 'message',
+      type: 'square',
+    },
+  },
+  {
+    title: 'Financial Planning',
+    rightEl: 5,
+    icon: {
+      color: 'green',
+      name: 'money_round',
       type: 'square',
     },
   },
