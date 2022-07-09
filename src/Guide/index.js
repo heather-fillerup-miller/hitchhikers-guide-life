@@ -5,6 +5,7 @@ import Home from './Home';
 import SignUp from './SignUp';
 import Profile from './Profile';
 import Login from './Login';
+import Diet from './Diet'
 
 export const Guide = () => {
 
@@ -14,6 +15,7 @@ export const Guide = () => {
       <Route component={Home} exact path="/guide/home" strict />
       <Route component={Profile} exact path="/guide/profile" strict />
       <Route component={Login} exact path="/guide/login" strict />
+      <Route component={Diet} exact path="/guide/diet" strict />
       <Redirect to="/guide/" />
     </Switch>
   );
