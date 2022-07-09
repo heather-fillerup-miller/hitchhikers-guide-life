@@ -56,7 +56,7 @@ const links = [
   }
 ];
 
-const SettingsDashboard = () => {
+const ProfileDashboard = () => {
   const [optionCountry, setOptionCountry] = React.useState(optionsCountries[0]);
   const [optionCity, setOptionCity] = React.useState(optionsCities[0]);
 
@@ -240,4 +240,4 @@ const SettingsDashboard = () => {
   );
 };
 
-export default SettingsDashboard;
+export default ProfileDashboard;
