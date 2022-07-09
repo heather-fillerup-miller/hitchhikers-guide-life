@@ -35,7 +35,7 @@ const RootRoute = props => {
       <Navigator />
       <Switch>
         <Route path="/guide" component={Guide} />
-        <Redirect to="/" component={Guide}/>
+        <Redirect to="/guide" component={Guide}/>
       </Switch>
     </>
   );

@@ -79,7 +79,9 @@ const Login = () => {
       </div>
     </Widget>
     <p>
-      Already on HG to a Better Life? Let us take you to <a>Sign In!</a>
+      Don't have an HG to a Better Life account? Let us take you to <Button Component={Link} sm block to="/guide/">
+            Sign-up <Icon ml>profile_plus_round</Icon>
+          </Button>
     </p>
   </div>
   );

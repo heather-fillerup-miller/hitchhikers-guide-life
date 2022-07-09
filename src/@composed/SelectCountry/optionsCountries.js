@@ -12,7 +12,7 @@ export default [
           className={cls['select-option-flag']}
           src={images.fUnitedStates}
         />
-        UnitedStates
+        Menu
       </span>
     )
   },
@@ -25,7 +25,20 @@ export default [
           className={cls['select-option-flag']}
           src={images.fCzechia}
         />
-        Czech Republic
+        Home
+      </span>
+    )
+  },
+  {
+    value: 'czech',
+    label: (
+      <span className={cls['select-option-country-content']}>
+        <img
+          alt="english"
+          className={cls['select-option-flag']}
+          src={images.fCzechia}
+        />
+        Help & Support
       </span>
     )
   },
@@ -38,21 +51,8 @@ export default [
           className={cls['select-option-flag']}
           src={images.fTuvalu}
         />
-        Tuvalu
+        Logout
       </span>
     )
   },
-  {
-    value: 'norway',
-    label: (
-      <span className={cls['select-option-country-content']}>
-        <img
-          alt="norway"
-          className={cls['select-option-flag']}
-          src={images.fNorway}
-        />
-        Norway
-      </span>
-    )
-  }
 ];

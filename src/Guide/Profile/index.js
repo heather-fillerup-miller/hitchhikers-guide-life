@@ -56,7 +56,7 @@ const links = [
   }
 ];
 
-const ProfileDashboard = () => {
+const Profile = () => {
   const [optionCountry, setOptionCountry] = React.useState(optionsCountries[0]);
   const [optionCity, setOptionCity] = React.useState(optionsCities[0]);
 
@@ -158,7 +158,7 @@ const ProfileDashboard = () => {
                           position="bottomRight"
                         />
                       </FormGroup>
-                      <FormGroup>
+                      {(optionCountry.value === 'us') && <FormGroup>
                         <Select
                           block
                           label="City"
@@ -168,7 +168,7 @@ const ProfileDashboard = () => {
                           placeholder="Action"
                           position="bottomRight"
                         />
-                      </FormGroup>
+                      </FormGroup>}
                     </FormGroupContainer>
                   </FormGroupContainer>
                 </WidgetContent>
@@ -240,4 +240,4 @@ const ProfileDashboard = () => {
   );
 };
 
-export default ProfileDashboard;
+export default Profile;

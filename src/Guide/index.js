@@ -11,7 +11,7 @@ export const Guide = () => {
 
   return (
     <Switch>
-      <Route component={SignUp} exact path="/guide/sign-up" strict />
+      <Route component={SignUp} exact path="/guide/" strict />
       <Route component={Home} exact path="/guide/home" strict />
       <Route component={DocumentationPage} exact path="/guide/doc" strict />
       <Route component={Profile} exact path="/guide/settings" strict />
