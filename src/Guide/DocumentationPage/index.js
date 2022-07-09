@@ -26,7 +26,7 @@ import WidgetDoc from './components/WidgetDoc';
 import DocTableExample from './DocTableExample';
 import DocTableExample2 from './DocTableExample2';
 
-class KnowledgeDocumentationPage extends React.PureComponent {
+class GuideDocumentationPage extends React.PureComponent {
   state = {
     activeItem: 'doc'
   };
@@ -69,9 +69,9 @@ class KnowledgeDocumentationPage extends React.PureComponent {
                 <WidgetContent>
                   <h1>Collections</h1>
                   <p>
-                    Collections in Knowledge are groupings of Items and define
+                    Collections in Guide are groupings of Items and define
                     the schema or structure of the custom data stored in those
-                    Items. A Knowledge site can have multiple attached
+                    Items. A Guide site can have multiple attached
                     Collections. A Collection’s fields define the structure of
                     the Items within it.
                   </p>
@@ -108,4 +108,4 @@ class KnowledgeDocumentationPage extends React.PureComponent {
   }
 }
 
-export default KnowledgeDocumentationPage;
+export default GuideDocumentationPage;

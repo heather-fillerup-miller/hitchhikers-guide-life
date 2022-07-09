@@ -15,14 +15,14 @@ import { UiContext } from '@context';
 import * as images from '@exampleAssets';
 
 import TopBarUserDropdown from './TopBarUserDropdown';
-import cls from './knowledge-top-bar.module.scss';
+import cls from './guide-top-bar.module.scss';
 
-const KnowledgeHeader = ({ isMenuOpen, toggleMenu }) => {
+const GuideHeader = ({ isMenuOpen, toggleMenu }) => {
   const uiContext = React.useContext(UiContext);
   return (
-    <TopBar className={cls['knowledge-top-bar']}>
+    <TopBar className={cls['guide-top-bar']}>
       <Button
-        className={cls['knowledge-top-bar-menu-btn']}
+        className={cls['guide-top-bar-menu-btn']}
         onClick={uiContext.menu.handleToggle}
       >
         <NavBurger isOpen={uiContext.menu.isVisible} />
@@ -30,10 +30,10 @@ const KnowledgeHeader = ({ isMenuOpen, toggleMenu }) => {
       <TopBarSection>
         <TopBarTitle>
           <Icon>help</Icon>
-          Knowledge
+          Guide
         </TopBarTitle>
       </TopBarSection>
-      <TopBarSection className={cls['knowledge-top-bar-actions']}>
+      <TopBarSection className={cls['guide-top-bar-actions']}>
         <TextField
           clear
           leftEl={<Icon>search_left</Icon>}
@@ -46,7 +46,7 @@ const KnowledgeHeader = ({ isMenuOpen, toggleMenu }) => {
           }}
         >
           <DropdownItem>Settings</DropdownItem>
-          <DropdownItem Component={Link} to='/knowledge/settings'> Your Profile</DropdownItem>
+          <DropdownItem Component={Link} to='/guide/settings'> Your Profile</DropdownItem>
           <DropdownItem>Help & Support center</DropdownItem>
           <DropdownItem>Logout</DropdownItem>
         </TopBarUserDropdown>
@@ -55,4 +55,4 @@ const KnowledgeHeader = ({ isMenuOpen, toggleMenu }) => {
   );
 };
 
-export default KnowledgeHeader;
+export default GuideHeader;

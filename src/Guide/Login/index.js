@@ -63,7 +63,7 @@ const Login = () => {
             </LoginCard>
           </LoginCardContainer>
 
-          <Button Component={Link} success block to="/knowledge">
+          <Button Component={Link} success block to="/guide/home">
             Get Guidance to a Better Life!
           </Button>
         </WidgetContent>

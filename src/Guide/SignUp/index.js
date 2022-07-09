@@ -72,7 +72,7 @@ const SignUp = () => {
             </LoginCard>
           </LoginCardContainer>
 
-          <Button Component={Link} success block to="/knowledge">
+          <Button Component={Link} success block to="/guide/home">
             Get Guidance to a Better Life!
           </Button>
         </WidgetContent>
@@ -88,7 +88,7 @@ const SignUp = () => {
       </div>
     </Widget>
     <p>
-      Already on HG to a Better Life? Let us take you to <Button Component={Link} sm block to="/knowledge/login">
+      Already on HG to a Better Life? Let us take you to <Button Component={Link} sm block to="/guide/login">
             Login <Icon ml>profile_round</Icon>
           </Button>
     </p>

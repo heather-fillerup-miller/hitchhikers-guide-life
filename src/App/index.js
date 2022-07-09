@@ -15,7 +15,7 @@ import { UiContext } from '@context';
 
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 
-import { Knowledge } from 'Knowledge';
+import { Guide } from 'Guide';
 
 import { useMenuVisibility } from '@utils';
 
@@ -34,8 +34,8 @@ const RootRoute = props => {
     <>
       <Navigator />
       <Switch>
-        <Route path="/knowledge" component={Knowledge} />
-        <Redirect to="/" component={Knowledge}/>
+        <Route path="/guide" component={Guide} />
+        <Redirect to="/" component={Guide}/>
       </Switch>
     </>
   );

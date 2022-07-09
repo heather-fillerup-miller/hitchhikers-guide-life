@@ -7,7 +7,7 @@ import { UiContext } from '@context';
 import cls from './docs-navigation.module.scss';
 import menuLinks from '../../assets/menuLinks';
 
-const KnowledgeDocumentationNavigation = () => {
+const GuideDocumentationNavigation = () => {
   const uiContext = React.useContext(UiContext);
   return (
     <NavPanel
@@ -41,4 +41,4 @@ const KnowledgeDocumentationNavigation = () => {
     </NavPanel>
   );
 };
-export default KnowledgeDocumentationNavigation;
+export default GuideDocumentationNavigation;

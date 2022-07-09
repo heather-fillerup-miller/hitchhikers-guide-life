@@ -18,9 +18,9 @@ import cls from './knowledge-home.module.scss';
 import topics from './assets/topics';
 import sidebarNavigation from './assets/sidebarNavigation';
 import sidebarVideos from './assets/sidebarVideos';
-import KnowledgeTopic from './components/KnowledgeTopic';
+import GuideTopic from './components/GuideTopic';
 
-const KnowledgeHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
+const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <ContainerVertical>
@@ -30,13 +30,13 @@ const KnowledgeHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
           <div className={cls['knowledge-home']}>
             <div>
               <h2 className={cls['knowledge-home-title']}>
-                Knowledge Documentation
+                Guide Documentation
               </h2>
               <p>Home / All Tutorials</p>
               <div className={cls['knowledge-list']}>
                 {topics.map(item => (
                   <div key={item.title}>
-                    <KnowledgeTopic key={item.title} {...item} />
+                    <GuideTopic key={item.title} {...item} />
                   </div>
                 ))}
               </div>
@@ -74,4 +74,4 @@ const KnowledgeHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   );
 };
 
-export default KnowledgeHome;
+export default GuideHome;

@@ -6,7 +6,7 @@ import { IconWrap, Badge } from '@components';
 
 import cls from './knowledge-topic.module.scss';
 
-const KnowledgeTopic = ({
+const GuideTopic = ({
   children,
   Component,
   className,
@@ -58,7 +58,7 @@ const KnowledgeTopic = ({
   </Component>
 );
 
-KnowledgeTopic.defaultProps = {
+GuideTopic.defaultProps = {
   className: null,
   description: null,
   users: null,
@@ -67,4 +67,4 @@ KnowledgeTopic.defaultProps = {
   Component: Widget
 };
 
-export default KnowledgeTopic;
+export default GuideTopic;

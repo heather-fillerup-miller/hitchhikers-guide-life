@@ -1,5 +1,5 @@
 @import '@duik/core/_vars.scss';
-.knowledge-top-bar-menu-btn {
+.guide-top-bar-menu-btn {
   display: none;
   background: white !important;
   width: 70px;
@@ -22,7 +22,7 @@
   left: 0;
 }
 
-.knowledge-top-bar {
+.guide-top-bar {
   @media screen and (max-width: 1200px) {
     padding-left: 80px;
     position: relative;
@@ -32,7 +32,7 @@
   }
 }
 
-.knowledge-top-bar-actions {
+.guide-top-bar-actions {
   @media screen and (max-width: 600px) {
     display: none;
   }

@@ -88,38 +88,7 @@ const Navigator = props => {
         >
           React Docs
         </NavLink>
-        {/* <NavLink
-            pill
-            Component={Link}
-            icon={<Icon>multitasking</Icon>}
-            to="/docs/changelog"
-          >
-            Changelog
-          </NavLink>
-          <NavLink
-            pill
-            Component={Link}
-            icon={<Icon>lightbulb</Icon>}
-            to="/docs/support"
-          >
-            Support
-          </NavLink> */}
         <Divider />
-        {/* <NavLink
-          pill
-          className="active"
-          href="https://janlosert.com/store/dashboard-ui-kit-3.html?from=docs"
-          icon={<Icon>love</Icon>}
-        >
-          Get Designs (Sketch, ..)
-        </NavLink>
-        <NavLink
-          pill
-          href="https://janlosert.com/store/dashboard-ui-kit-3.html?from=docs"
-          icon={<Icon>inbox_paper_round</Icon>}
-        >
-          Get Previews
-        </NavLink> */}
       </div>
     </OuterEventsHandler>
   );
