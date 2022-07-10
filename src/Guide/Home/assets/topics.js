@@ -84,8 +84,23 @@ export default [
     description: 'Completed 12 hours ago by',
     taskNo: 4,
     icon: {
-      color: 'green',
+      color: 'red',
       name: 'view_simple'
+    },
+    users: [
+      {
+        imgUrl: images.a02,
+        rightEl: <img alt="like" src={images.ua02} />
+      }
+    ]
+  },
+  {
+    title: 'Make a Financial Wellness Plan for Today',
+    description: 'Completed 12 hours ago by',
+    taskNo: 4,
+    icon: {
+      color: 'green',
+      name: 'money_round'
     },
     users: [
       {

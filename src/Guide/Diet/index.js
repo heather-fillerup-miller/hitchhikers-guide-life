@@ -17,7 +17,7 @@ import Header from '../components/Header';
 
 import cls from './diet-home.module.scss';
 
-import topics from './assets/topics';
+import meals from './assets/meals';
 import sidebarNavigation from './assets/sidebarNavigation';
 import sidebarVideos from './assets/sidebarVideos';
 import DietTopic from './components/DietTopic';
@@ -36,7 +36,7 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               </h2>
               <p><Link to='/guide/home'>Home</Link> / About / Store / News / Contact </p>
               <div className={cls['diet-list']}>
-                {topics.map(item => (
+                {meals.map(item => (
                   <div key={item.title}>
                     <DietTopic key={item.title} {...item} />
                   </div>

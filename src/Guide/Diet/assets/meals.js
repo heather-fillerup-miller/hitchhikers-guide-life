@@ -3,11 +3,11 @@ export default [
     mealTitle: 'Breakfast',
     id: 638775,
     healthScore: 2,
-    sourceUrl: "https://www.foodista.com/recipe/C3X8BPKK/chive-and-dill-muffins",
-    title: "Chive and dill muffins",
-    imgUrl: "https://spoonacular.com/recipeImages/638775-556x370.jpg",
+    sourceUrl: "https://www.foodista.com/recipe/SM62VQWH/chocolate-chip-coconut-muffins",
+    title: "Chocolate Chip Coconut Muffins",
+    imgUrl: "https://spoonacular.com/recipeImages/638917-556x370.jpg",
     letsDoItUrl: '/guide/profile',
-    creditText: "The Cooking Encyclopedia Everyone Can Edit"
+    creditText: "Foodista"
   },
   {
     mealTitle: 'Lunch',

@@ -1,7 +1,7 @@
 export default [
   {
-    title: 'Tasks',
-    rightEl: 43,
+    title: 'Administrative',
+    rightEl: 2,
     icon: {
       color: 'blue',
       name: 'inbox_paper_round',
@@ -10,7 +10,7 @@ export default [
   },
   {
     title: 'Physical Fitness',
-    rightEl: 18,
+    rightEl: 2,
     icon: {
       color: 'violet',
       name: 'stats',
@@ -28,7 +28,7 @@ export default [
   },
   {
     title: 'Spiritual Guidance',
-    rightEl: 12,
+    rightEl: 0,
     icon: {
       color: 'yellow',
       name: 'lightbulb',
@@ -37,7 +37,7 @@ export default [
   },
   {
     title: 'Socialize',
-    rightEl: 7,
+    rightEl: 0,
     icon: {
       name: 'message',
       type: 'square',
@@ -45,7 +45,7 @@ export default [
   },
   {
     title: 'Financial Planning',
-    rightEl: 5,
+    rightEl: 1,
     icon: {
       color: 'green',
       name: 'money_round',

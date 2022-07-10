@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 /* eslint-disable max-len */
@@ -7,8 +7,8 @@ import {
   Widget,
   WidgetContent,
   WidgetContainer,
-  Select,
   Divider,
+  Select,
   NavLink as NavLinkKit,
   NavSection,
   FormGroupContainer,
@@ -22,66 +22,64 @@ import {
 } from '@duik/it';
 
 import TopBar from './components/TopBar';
-import cls from './user.module.scss';
+import cls from './profile.module.scss';
 
 import optionsCountries from './assets/optionsCountries';
 import optionsCities from './assets/optionsCities';
+import optionsFitness from './assets/optionsFitness';
+import optionsDiet from './assets/optionsDiet';
 
 import ImgUserProfile from './assets/profilePic.jpg';
 
 const links = [
   {
-    text: 'Account Settings',
-    to: '/settings'
-  },
-  {
-    text: 'Teams',
-    to: '/teams'
+    text: 'Home',
+    to: 'home'
   },
   {
     text: 'Password',
-    to: '/password'
   },
   {
     text: 'Invoices',
-    to: '/invoices'
   },
   {
     text: 'Integrations',
-    to: '/integrations'
   },
   {
     text: 'Privacy',
-    to: '/privacy'
   }
 ];
 
 const Profile = () => {
-  const [optionCountry, setOptionCountry] = React.useState(optionsCountries[0]);
-  const [optionCity, setOptionCity] = React.useState(optionsCities[0]);
+  const [optionCountry, setOptionCountry] = useState(optionsCountries[0]);
+  const [optionCity, setOptionCity] = useState(optionsCities[0]);
+  const [optionFitness, setOptionFintess] = useState(optionsFitness[0]);
+  const [optionDiet, setOptionDiet] = useState(optionsDiet[0])
 
   const onClickCountry = option => setOptionCountry(option);
   const onClickCity = option => setOptionCity(option);
+  const onClickFitness = option => setOptionFintess(option);
+  const onClickDiet = option => setOptionDiet(option);
 
   return (
     <ContainerVertical>
       <TopBar
         rightEl={
-          <div className={cls['guide-user-progress-container']}>
+          <div className={cls['profile-user-progress-container']}>
             <p>Profile Completeness: 70%</p>
-            <Progress className={cls['guide-user-progress']} fill={0.7} />
+            <Progress className={cls['profile-user-progress']} fill={0.7} />
           </div>
         }
       />
       <ScrollArea>
-        <div className={cls['guide-user-layout']}>
-          <WidgetContainer className={cls['guide-user-sub-nav']}>
+        <div className={cls['profile-user-layout']}>
+          <WidgetContainer className={cls['profile-user-sub-nav']}>
             <Widget>
               <div
-                className={cls['guide-user-profile-pic']}
+                className={cls['profile-user-profile-pic']}
                 style={{ backgroundImage: `url("${ImgUserProfile}")` }}
               />
-              <WidgetContent className={cls['guide-user-meta']}>
+              <WidgetContent className={cls['profile-user-meta']}>
                 <h2>Heather Fillerup</h2>
                 <p>
                   {'Dallas, TX United States'}
@@ -90,13 +88,13 @@ const Profile = () => {
                 </p>
               </WidgetContent>
               <Divider />
-              <div className={cls['guide-user-menu']}>
+              <div className={cls['profile-user-menu']}>
                 <NavSection>
                   {links.map(link => (
                     <NavLinkKit
                       key={link.to}
                       Component={NavLink}
-                      to={`/guide/user${link.to}`}
+                      to={`/guide/${link.to}`}
                     >
                       {link.text}
                     </NavLinkKit>
@@ -108,7 +106,7 @@ const Profile = () => {
           <WidgetContainer>
             <Widget>
               <WidgetContent>
-                <h3>Demographics</h3>
+                <h2>Demographics</h2>
               </WidgetContent>
               <Divider />
               <form onSubmit={() => {}}>
@@ -179,7 +177,7 @@ const Profile = () => {
             </Widget>
             <Widget>
               <WidgetContent>
-                <h3>Life Goals</h3>
+                <h2>Life Goals</h2>
                 <p>
                   Choose life goals that you are currently interested in. These options will personalize your suggested actions and motivational videos.
                 </p>
@@ -188,48 +186,51 @@ const Profile = () => {
                 <Divider />
                 <WidgetContent>
                   <FormGroupContainer horizontal>
-                    <FormGroupContainer>
-                      <h4>Fitness</h4>
-                      <Checkbox
-                        defaultChecked
-                        label="Weight Loss"
-                        name="[fitness]weight-loss"
-                      />
-                      <Checkbox
-                        label="Strength Training"
-                        name="[fintess]strenght-training"
-                      />
-                      <Checkbox label="Vegetarian Diet" name="[fintess]vegetarian" />
-                      <Checkbox label="Vegan Diet" name="[fintess]vegan" />
-                      <Checkbox label="Keto Diet" name="[fintess]keto" />
-                      <Checkbox label="Mediterranean Diet" name="[fintess]med" />
+                    <FormGroupContainer className={cls['profile-user-goals']}>
+                      <h3>Health</h3>
+                      <FormGroup>
+                        <h6>Fitness
+                        <Select 
+                          block
+                          activeOption={optionFitness}
+                          onOptionClick={onClickFitness}
+                          options={optionsFitness}
+                        />
+                        </h6>
+                        <h6>Diet
+                        <Select 
+                          block
+                          activeOption={optionDiet}
+                          onOptionClick={onClickDiet}
+                          options={optionsDiet}
+                        />
+                        </h6>
+                      </FormGroup>
                     </FormGroupContainer>
                     <FormGroupContainer>
-                      <h4>Mental</h4>
-                      <Checkbox label="Email" name="[messages]email" />
+                      <h3>Stress</h3>
+                      <Checkbox label="Spirtual" name="[stress]spritual" />
                       <Checkbox
                         defaultChecked
-                        description="For your mobile or tablet device"
-                        label="Push Notifications"
-                        name="[messages]push"
+                        label="Meditation"
+                        name="[stress]meditate"
                       />
-                      <Checkbox label="Text Messages" name="[messages]text" />
+                      <Checkbox label="Yoga" name="[stress]yoga" />
                     </FormGroupContainer>
                     <FormGroupContainer>
-                      <h4>Financial</h4>
-                      <Checkbox label="Email" name="[messages]email" />
+                      <h3>Finances</h3>
+                      <Checkbox label="Stock Investing" name="[finances]invest" />
                       <Checkbox
                         defaultChecked
-                        description="For your mobile or tablet device"
-                        label="Push Notifications"
-                        name="[messages]push"
+                        label="Career Advancement"
+                        name="[finances]career"
                       />
-                      <Checkbox label="Text Messages" name="[messages]text" />
+                      <Checkbox label="Cryptocurrency Investing" name="[finances]crypto" />
                     </FormGroupContainer>
                   </FormGroupContainer>
                 </WidgetContent>
                 <WidgetContent>
-                  <Button transparent>Save Settings</Button>
+                  <Button success >Save Settings</Button>
                 </WidgetContent>
               </form>
             </Widget>
