@@ -1,0 +1,75 @@
+@import '@duik/core/_vars.scss';
+
+.diet-list-topic {
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  & + * {
+    margin-top: 30px;
+  }
+  &-content {
+    flex-grow: 1;
+    text-align: center;
+  }
+  &-link {
+    color: $text-main;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  &-action {
+    display: block;
+  }
+  &-recipe {
+    display: flex;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .diet-list-topic {
+    flex-wrap: wrap;
+    padding-left: 102px !important;
+    position: relative;
+    justify-content: space-between;
+    &-icon {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+    }
+    &-content {
+      flex-basis: 100%;
+      margin-bottom: 25px;
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .diet-list-topic {
+    padding-left: 15px !important;
+    padding-top: 112px !important;
+    justify-content: center;
+    &-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      & > * {
+        margin: 0;
+        &:not(:first-child) {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+    &-content {
+      text-align: center;
+    }
+    &-recipe {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.dropdownIcon {
+  font-size: 0.7rem;
+  color: $text-secondary;
+}

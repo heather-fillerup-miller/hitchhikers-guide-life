@@ -4,8 +4,7 @@ import * as images from '@exampleAssets';
 export default [
   {
     title: 'Learn how to use this guide',
-    description: 'Last completed 2 days ago by',
-    taskNo: 1,
+    description: 'Completed 2 days ago by',
     icon: {
       color: 'blue',
       name: 'inbox_paper_round'
@@ -23,8 +22,8 @@ export default [
   },
   {
     title: 'Update Your Profile and Goals',
-    description: 'Last completed 3 days ago by',
-    taskNo: 2,
+    description: 'Completed 3 days ago by',
+    taskNo: 1,
     letsDoItUrl: '/guide/profile',
     icon: {
       color: 'blue',
@@ -43,7 +42,9 @@ export default [
   },
   {
     title: 'Make a Diet Plan for Today',
-    description: 'Last completed 4 hours ago by',
+    description: 'Completed 4 hours ago by',
+    taskNo: 2,
+    letsDoItUrl: '/guide/diet',
     icon: {
       color: 'violet',
       name: 'stats'
@@ -61,7 +62,8 @@ export default [
   },
   {
     title: 'Make a Fitness Plan for Today',
-    description: 'Last completed 1 hour ago by',
+    description: 'Completed 1 hour ago by',
+    taskNo: 3,
     icon: {
       color: 'violet',
       name: 'stats'
@@ -79,7 +81,23 @@ export default [
   },
   {
     title: 'Make a Mental Wellness Plan for Today',
-    description: 'Last completed 12 hours ago by',
+    description: 'Completed 12 hours ago by',
+    taskNo: 4,
+    icon: {
+      color: 'red',
+      name: 'view_simple'
+    },
+    users: [
+      {
+        imgUrl: images.a02,
+        rightEl: <img alt="like" src={images.ua02} />
+      }
+    ]
+  },
+  {
+    title: 'Make a Financial Wellness Plan for Today',
+    description: 'Completed 12 hours ago by',
+    taskNo: 4,
     icon: {
       color: 'green',
       name: 'money_round'

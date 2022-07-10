@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classnames from 'classnames';
 import { UiContext } from '@context';
 import {
@@ -24,7 +25,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <ContainerVertical>
-      <Header />
+      <Header isHome={true}/>
       <ContainerHorizontal>
         <ScrollArea>
           <div className={cls['guide-home']}>
@@ -32,7 +33,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               <h2 className={cls['guide-home-title']}>
                 Today's Suggested Actions
               </h2>
-              <p>Home / About / Store / News / Contact </p>
+              <p><Link to='/guide/home'>Home</Link> / About / Store / News / Contact </p>
               <div className={cls['guide-list']}>
                 {topics.map(item => (
                   <div key={item.title}>
@@ -49,7 +50,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
             >
               <Widget>
                 <WidgetHeader>
-                  <h3>Topics </h3>
+                  <h3>To Do </h3>
                 </WidgetHeader>
                 {sidebarNavigation.map(item => (
                   <WidgetLink key={item.title} {...item} />

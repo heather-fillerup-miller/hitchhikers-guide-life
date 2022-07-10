@@ -29,12 +29,9 @@ const GuideTopic = ({
       className={classnames(cls['guide-list-topic-icon'], iconClassName)}
     />
     <div className={cls['guide-list-topic-content']}>
-      <h2 className={cls['guide-list-topic-title']}>
-        <a className={cls['guide-list-topic-link']}>{title}</a>
-          <Badge className={cls['guide-list-topic-tag']} color="green">
-            {taskNo}
-          </Badge>
-      </h2>
+      <h2 className={cls['guide-list-topic-title']}>{title}<Badge className={cls['guide-list-topic-tag']} color="green">
+        {taskNo}
+      </Badge></h2>
       <p>{description}</p>
     </div>
     {users && (
@@ -44,14 +41,15 @@ const GuideTopic = ({
         ))}
       </div>
     )}
-      <Dropdown
-        className={cls['guide-list-topic-action']}
-        menuPosition="bottom-left"
-      >
-        <DropdownItem Component={ Link } to={letsDoItUrl} >Let's Do It!</DropdownItem>
-        <DropdownItem>Maybe Later...</DropdownItem>
-        <DropdownItem>No thanks</DropdownItem>
-      </Dropdown>
+    <Dropdown
+      className={cls['guide-list-topic-action']}
+      menuPosition="bottom-left"
+    >
+      {letsDoItUrl && <DropdownItem Component={Link} to={letsDoItUrl} >Let's Do It!</DropdownItem>}
+      {!letsDoItUrl && <DropdownItem>Let's Do It!</DropdownItem>}
+      <DropdownItem>Maybe Later...</DropdownItem>
+      <DropdownItem>No thanks</DropdownItem>
+    </Dropdown>
   </Component>
 );
 
@@ -59,9 +57,9 @@ GuideTopic.defaultProps = {
   className: null,
   description: null,
   users: null,
-  isAdmin: false,
   children: null,
-  Component: Widget
+  Component: Widget,
+  letsDoItUrl: null,
 };
 
 export default GuideTopic;
