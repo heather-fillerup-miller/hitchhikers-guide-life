@@ -32,7 +32,6 @@ const GuideTopic = ({
       <h2 className={cls['guide-list-topic-title']}>{title}<Badge className={cls['guide-list-topic-tag']} color="green">
         {taskNo}
       </Badge></h2>
-
       <p>{description}</p>
     </div>
     {users && (
