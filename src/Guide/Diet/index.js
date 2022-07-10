@@ -9,7 +9,8 @@ import {
   ScrollArea
 } from '@duik/it';
 
-import { WidgetLink, WidgetVideoPreview } from '@components';
+import { WidgetVideoPreview } from '@components';
+import WidgetLink from './components/WidgetLink';
 
 import Header from '../components/Header';
 

@@ -1,6 +1,3 @@
-import React from 'react';
-import * as images from '@exampleAssets';
-
 export default [
   {
     mealTitle: 'Breakfast',

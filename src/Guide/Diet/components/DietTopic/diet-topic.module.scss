@@ -8,21 +8,9 @@
     margin-top: 30px;
   }
   &-content {
-    margin-left: 24px;
-    & + * {
-      margin-left: 24px;
-    }
     flex-grow: 1;
+    text-align: center;
   }
-
-  &-title {
-    display: flex;
-    align-items: center;
-  }
-  &-tag {
-    margin-left: 10px;
-  }
-
   &-link {
     color: $text-main;
     &:hover {
@@ -30,15 +18,11 @@
     }
   }
   &-action {
-    margin-left: 20px;
     display: block;
   }
   &-recipe {
     display: flex;
     padding: 10px;
-    & > * + * {
-      margin-left: 10px;
-    }
   }
 }
 
@@ -78,7 +62,7 @@
     &-content {
       text-align: center;
     }
-    &-icon {
+    &-recipe {
       left: 50%;
       transform: translateX(-50%);
     }

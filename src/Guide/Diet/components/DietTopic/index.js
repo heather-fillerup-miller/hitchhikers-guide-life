@@ -30,14 +30,14 @@ const DietTopic = ({
     {...rest}
   >
     <div className={cls['diet-list-topic-content']}>
-      <h2 className={cls['diet-list-topic-title']}>
-        <a className={cls['diet-list-topic-link']}>{mealTitle}</a>
-        <Badge className={cls['diet-list-topic-tag']} color="green">
-          Health Score: {healthScore}
-        </Badge>
+      <h2>
+        <a className={cls['diet-list-topic-content']}>{mealTitle}</a>
       </h2>
-      <h3 className={cls['diet-list-topic-title']}>
-        <a className={cls['diet-list-topic-link']}>{title}</a>
+      <Badge color="green">
+          Health Score: {healthScore}
+      </Badge>
+      <h3>
+        <a className={cls['diet-list-topic-content']}>{title}</a>
       </h3>
     </div>
     <a className={cls['diet-list-topic-link']} href={sourceUrl}>by {creditText}</a>

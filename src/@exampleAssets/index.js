@@ -46,3 +46,8 @@ export { default as s06 } from './social/s06.jpg';
 export { default as s07 } from './social/s07.jpg';
 export { default as s08 } from './social/s08.jpg';
 export { default as s09 } from './social/s09.jpg';
+
+// micronutrients
+export { default as mn01 } from './mn01.jpg';
+export { default as mn02 } from './mn02.jpg';
+export { default as mn03 } from './mn03.jpg';

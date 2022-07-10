@@ -1,3 +1,5 @@
+import * as images from '@exampleAssets';
+
 export default [
   {
     title: 'Micronutrients (40/30/40)',
@@ -5,28 +7,16 @@ export default [
   {
     title: 'Carbohydrates',
     rightEl: 800,
-    icon: {
-      color: 'violet',
-      name: 'stats',
-      type: 'square',
-    },
+    imgUrl: images.mn01
   },
   {
     title: 'Protein',
     rightEl: 1000,
-    icon: {
-      color: 'red',
-      name: 'view_simple',
-      type: 'square',
-    },
+    imgUrl: images.mn02
   },
   {
     title: 'Fat',
     rightEl: 400,
-    icon: {
-      color: 'yellow',
-      name: 'lightbulb',
-      type: 'square',
-    },
+    imgUrl: images.mn03
   },
 ]
