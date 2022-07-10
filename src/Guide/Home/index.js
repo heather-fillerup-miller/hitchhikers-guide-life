@@ -24,7 +24,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <ContainerVertical>
-      <Header />
+      <Header isHome={true}/>
       <ContainerHorizontal>
         <ScrollArea>
           <div className={cls['guide-home']}>

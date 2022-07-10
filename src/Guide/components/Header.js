@@ -17,7 +17,7 @@ import * as images from '@exampleAssets';
 import TopBarUserDropdown from './TopBarUserDropdown';
 import cls from './guide-top-bar.module.scss';
 
-const GuideHeader = ({ isMenuOpen, toggleMenu }) => {
+const GuideHeader = ({ isMenuOpen, toggleMenu, isHome }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <TopBar className={cls['guide-top-bar']}>
@@ -47,6 +47,7 @@ const GuideHeader = ({ isMenuOpen, toggleMenu }) => {
         >
           <DropdownItem>Settings</DropdownItem>
           <DropdownItem Component={Link} to='/guide/profile'> Your Profile</DropdownItem>
+          {!isHome && <DropdownItem Component={Link} to='/guide/home'> Home</DropdownItem>}
           <DropdownItem>Help & Support</DropdownItem>
           <DropdownItem Component={Link} to='/guide/sign-up'>Logout</DropdownItem>
         </TopBarUserDropdown>

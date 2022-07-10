@@ -1,6 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
 import { UiContext } from '@context';
+import { Link } from 'react-router-dom';
 import {
   WidgetHeader,
   Widget,
@@ -25,7 +26,7 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <ContainerVertical>
-      <Header />
+      <Header isHome={false}/>
       <ContainerHorizontal>
         <ScrollArea>
           <div className={cls['diet-home']}>
@@ -33,7 +34,7 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               <h2 className={cls['diet-home-title']}>
                 Today's Suggested Meal Plan
               </h2>
-              <p>Home / About / Store / News / Contact </p>
+              <p><Link to='/guide/home'>Home</Link> / About / Store / News / Contact </p>
               <div className={cls['diet-list']}>
                 {topics.map(item => (
                   <div key={item.title}>

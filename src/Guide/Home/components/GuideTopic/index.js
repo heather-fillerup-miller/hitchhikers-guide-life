@@ -48,7 +48,8 @@ const GuideTopic = ({
         className={cls['guide-list-topic-action']}
         menuPosition="bottom-left"
       >
-        <DropdownItem Component={ Link } to={letsDoItUrl} >Let's Do It!</DropdownItem>
+        {letsDoItUrl && <DropdownItem Component={ Link } to={letsDoItUrl} >Let's Do It!</DropdownItem>}
+        {!letsDoItUrl && <DropdownItem>Let's Do It!</DropdownItem>}
         <DropdownItem>Maybe Later...</DropdownItem>
         <DropdownItem>No thanks</DropdownItem>
       </Dropdown>
@@ -59,9 +60,9 @@ GuideTopic.defaultProps = {
   className: null,
   description: null,
   users: null,
-  isAdmin: false,
   children: null,
-  Component: Widget
+  Component: Widget,
+  letsDoItUrl: null,
 };
 
 export default GuideTopic;
