@@ -14,6 +14,7 @@ const GuideTopic = ({
   icon: { className: iconClassName, ...icon },
   title,
   description,
+  social,
   users,
   taskNo,
   letsDoItUrl,
@@ -29,10 +30,14 @@ const GuideTopic = ({
       className={classnames(cls['guide-list-topic-icon'], iconClassName)}
     />
     <div className={cls['guide-list-topic-content']}>
-      <h2 className={cls['guide-list-topic-title']}>{title}<Badge className={cls['guide-list-topic-tag']} color="green">
-        {taskNo}
-      </Badge></h2>
-      <p>{description}</p>
+      <h2 className={cls['guide-list-topic-title']}>{title}
+
+        {taskNo && <Badge className={cls['guide-list-topic-tag']} color="green">
+          {taskNo}
+        </Badge>}
+      </h2>
+      <p className={cls['guide-list-topic-description']}>{description}</p>
+      <p>{social}</p>
     </div>
     {users && (
       <div className={cls['guide-list-topic-users']}>

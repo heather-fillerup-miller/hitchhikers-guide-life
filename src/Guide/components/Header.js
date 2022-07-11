@@ -30,7 +30,7 @@ const GuideHeader = ({ isMenuOpen, toggleMenu, isHome }) => {
       <TopBarSection>
         <TopBarTitle>
           <Icon>help</Icon>
-          Hitchhiker's Guide to a Better Life
+          <Link to='/guide/home'>Hitchhiker's Guide to a Better Life</Link>
         </TopBarTitle>
       </TopBarSection>
       <TopBarSection className={cls['guide-top-bar-actions']}>
@@ -45,9 +45,9 @@ const GuideHeader = ({ isMenuOpen, toggleMenu, isHome }) => {
             name: 'Heather'
           }}
         >
-          <DropdownItem>Settings</DropdownItem>
           <DropdownItem Component={Link} to='/guide/profile'> Your Profile</DropdownItem>
           {!isHome && <DropdownItem Component={Link} to='/guide/home'> Home</DropdownItem>}
+          <DropdownItem>Advanced Options</DropdownItem>
           <DropdownItem>Help & Support</DropdownItem>
           <DropdownItem Component={Link} to='/guide/sign-up'>Logout</DropdownItem>
         </TopBarUserDropdown>

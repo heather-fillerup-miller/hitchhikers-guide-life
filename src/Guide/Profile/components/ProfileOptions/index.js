@@ -42,8 +42,8 @@ const TopBarTemplate = ({ children, className, isMenuOpen, rightEl }) => {
             name: 'Heather'
           }}
         >
-          <DropdownItem>Settings</DropdownItem>
           <DropdownItem Component={Link} to='/guide/home'> Home</DropdownItem>
+          <DropdownItem>Advanced Options</DropdownItem>
           <DropdownItem>Help & Support</DropdownItem>
           <DropdownItem Component={Link} to='/guide/sign-up'>Logout</DropdownItem>
         </TopBarUserDropdown>

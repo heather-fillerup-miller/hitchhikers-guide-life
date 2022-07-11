@@ -3,8 +3,9 @@ import * as images from '@exampleAssets';
 
 export default [
   {
-    title: 'Learn how to use this guide',
-    description: 'Completed 2 days ago by',
+    title: 'Learn About New Features',
+    description: 'Spotlight: You can create a daily meal plan',
+    social: 'Completed 2 days ago by',
     icon: {
       color: 'blue',
       name: 'inbox_paper_round'
@@ -22,7 +23,8 @@ export default [
   },
   {
     title: 'Update Your Profile and Goals',
-    description: 'Completed 3 days ago by',
+    description: 'Make your actions more personal by completing your profile',
+    social: 'Completed 3 days ago by',
     taskNo: 1,
     letsDoItUrl: '/guide/profile',
     icon: {
@@ -42,7 +44,8 @@ export default [
   },
   {
     title: 'Make a Diet Plan for Today',
-    description: 'Completed 4 hours ago by',
+    description: 'Generate recipes for Breakfast, Lunch and Dinner based on your health profile',
+    social: 'Completed 4 hours ago by',
     taskNo: 2,
     letsDoItUrl: '/guide/diet',
     icon: {
@@ -62,7 +65,8 @@ export default [
   },
   {
     title: 'Make a Fitness Plan for Today',
-    description: 'Completed 1 hour ago by',
+    description: "Generate a workout schedule based on your health profile settings",
+    social: 'Completed 1 hour ago by',
     taskNo: 3,
     icon: {
       color: 'violet',
@@ -80,8 +84,9 @@ export default [
     ]
   },
   {
-    title: 'Make a Mental Wellness Plan for Today',
-    description: 'Completed 12 hours ago by',
+    title: 'Make a Stress Relief Plan for Today',
+    description: "Generate a stress relief schedule based on your stress profile settings",
+    social: 'Completed 12 hours ago by',
     taskNo: 4,
     icon: {
       color: 'red',
@@ -96,7 +101,8 @@ export default [
   },
   {
     title: 'Make a Financial Wellness Plan for Today',
-    description: 'Completed 12 hours ago by',
+    description: "Generate a fiancial plan based on your finance profile settings",
+    social: 'Completed 12 hours ago by',
     taskNo: 4,
     icon: {
       color: 'green',

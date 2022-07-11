@@ -34,7 +34,7 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               <h2 className={cls['diet-home-title']}>
                 Today's Suggested Meal Plan
               </h2>
-              <p><Link to='/guide/home'>Home</Link> / About / Store / News / Contact </p>
+              <p><Link to='/guide/home'>Home</Link> / About /<Link to='/guide/diet'> Meals</Link> / Fitness / Stress Relief / Finances</p>
               <div className={cls['diet-list']}>
                 {meals.map(item => (
                   <div key={item.title}>

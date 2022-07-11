@@ -33,7 +33,7 @@ const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
               <h2 className={cls['guide-home-title']}>
                 Today's Suggested Actions
               </h2>
-              <p><Link to='/guide/home'>Home</Link> / About / Store / News / Contact </p>
+              <p><Link to='/guide/home'>Home</Link> / About / <Link to='/guide/diet'> Meals</Link> / Fitness / Stress Relief / Finances</p>
               <div className={cls['guide-list']}>
                 {topics.map(item => (
                   <div key={item.title}>

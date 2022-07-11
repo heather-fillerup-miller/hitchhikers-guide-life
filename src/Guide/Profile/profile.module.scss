@@ -59,13 +59,22 @@
   }
 
   &-goals {
-      padding-right: 100px;
+      padding-right: 50px;
+      text-align: left;
+      overflow: visible;
   }
 
+  &-fitnessSelect {
+    padding-bottom:10px;
+    overflow: visible;
+    width: auto;
+
+  }
 
   &-layout {
 
     display: flex;
+    overflow: visible;
 
     @media screen and (min-width: 1051px) {
       &>* {
@@ -78,6 +87,9 @@
         }
       }
     }
+  &-alert {
+    flex-direction: row;
+  }
 
     @media screen and (max-width: 1050px) {
       flex-wrap: wrap;
