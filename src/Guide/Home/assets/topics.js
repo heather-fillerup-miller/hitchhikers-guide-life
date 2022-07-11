@@ -103,7 +103,7 @@ export default [
     title: 'Make a Financial Wellness Plan for Today',
     description: "Generate a fiancial plan based on your finance profile settings",
     social: 'Completed 12 hours ago by',
-    taskNo: 4,
+    taskNo: 5,
     icon: {
       color: 'green',
       name: 'money_round'
