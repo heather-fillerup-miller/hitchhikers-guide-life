@@ -1,8 +1,3 @@
-/**
- * Here we put all root config, such as routing
- * If necessary, styles from the libraries should be put here as well
- */
-
 import React from 'react';
 
 // styles
@@ -12,13 +7,9 @@ import '@animated-burgers/burger-squeeze/dist/styles.css';
 import './app.module.scss';
 
 import { UiContext } from '@context';
-
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
-
 import { Guide } from 'Guide';
-
 import { useMenuVisibility } from '@utils';
-
 import Navigator from './Navigator';
 
 const RootRoute = props => {
