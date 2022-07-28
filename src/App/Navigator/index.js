@@ -51,33 +51,15 @@ const Navigator = props => {
         onClick={handleToggle}
         type="button"
       >
-        <Icon>view_list</Icon>
+        <Icon>lightbulb</Icon>
       </button>
       <div
         className={classnames(cls.list, {
           [cls.isExpanded]: isExpanded
         })}
       >
-        {/* <NavLink
-          pill
-          Component={Link}
-          icon={<Icon>gallery_grid_view</Icon>}
-          to="/"
-        >
-          Screen Previews
-        </NavLink> */}
-        <NavLink pill icon={<Icon>view_simple</Icon>} onClick={toggleTheme}>
+        <NavLink pill onClick={toggleTheme}>
           Switch Dark/Light Theme
-        </NavLink>
-        <Divider />
-        <NavLink
-          pill
-          Component="a"
-          icon={<Icon>view_list</Icon>}
-          href="https://developer.dashboard-ui.com/docs/react/installation"
-          target="_blank"
-        >
-          React Docs
         </NavLink>
         <Divider />
       </div>
