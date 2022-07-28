@@ -28,7 +28,7 @@ import optionsCountries from './assets/optionsCountries';
 import optionsCities from './assets/optionsCities';
 import optionsFitness from './assets/optionsFitness';
 import optionsDiet from './assets/optionsDiet';
-import ImgUserProfile from './assets/profilePic.jpg';
+import * as images from '@Assets';
 
 const links = [
   {
@@ -87,7 +87,7 @@ const Profile = () => {
             <Widget>
               <div
                 className={cls['profile-user-profile-pic']}
-                style={{ backgroundImage: `url("${ImgUserProfile}")` }}
+                style={{ backgroundImage: `url("${images.profilePic}")` }}
               />
               <WidgetContent className={cls['profile-user-meta']}>
                 <h2>Heather Fillerup</h2>

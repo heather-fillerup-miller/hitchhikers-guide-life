@@ -1,4 +1,4 @@
-import * as images from '@exampleAssets';
+import * as images from '@Assets';
 
 export default [
   {

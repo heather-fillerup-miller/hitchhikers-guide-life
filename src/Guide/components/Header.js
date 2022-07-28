@@ -12,7 +12,7 @@ import {
 import { NavBurger } from '@components';
 import { UiContext } from '@context';
 
-import * as images from '@exampleAssets';
+import * as images from '@Assets';
 
 import TopBarUserDropdown from './TopBarUserDropdown';
 import cls from './guide-top-bar.module.scss';
@@ -41,7 +41,7 @@ const GuideHeader = ({ isMenuOpen, toggleMenu, isHome }) => {
         />
         <TopBarUserDropdown
           user={{
-            imgUrl: images.a10,
+            imgUrl: images.a05,
             name: 'Heather'
           }}
         >

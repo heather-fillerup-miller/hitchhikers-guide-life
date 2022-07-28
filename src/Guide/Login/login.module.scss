@@ -51,8 +51,8 @@
 .login-content-right {
   background: no-repeat center center;
   background-size: cover;
-  background-image: url("./assets/login-cover.jpg"); // fallback
-  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, .25) 100%), url("./assets/login-cover.jpg");
+  background-image: url("../../@Assets/login-cover.jpg"); // fallback
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, .25) 100%), url("../../@Assets/login-cover.jpg");
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   color: $text-on-color;

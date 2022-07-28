@@ -10,7 +10,7 @@ import { UiContext } from "@context";
 
 import cls from "./top-bar.module.scss";
 import TopBarUserDropdown from "../../../components/TopBarUserDropdown";
-import * as images from '@exampleAssets';
+import * as images from '@Assets';
 
 const TopBarTemplate = ({ children, className, isMenuOpen, rightEl }) => {
   const uiContext = React.useContext(UiContext);
@@ -38,7 +38,7 @@ const TopBarTemplate = ({ children, className, isMenuOpen, rightEl }) => {
         />
                 <TopBarUserDropdown
           user={{
-            imgUrl: images.a10,
+            imgUrl: images.a05,
             name: 'Heather'
           }}
         >
