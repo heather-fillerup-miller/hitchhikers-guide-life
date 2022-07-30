@@ -14,10 +14,10 @@ import { UiContext } from '@context';
 
 import * as images from '@Assets';
 
-import TopBarUserDropdown from './TopBarUserDropdown';
-import cls from './guide-top-bar.module.scss';
+import TopBarUserDropdown from '../TopBarUserDropdown/index';
+import cls from './top-bar-header.module.scss';
 
-const GuideHeader = ({ isMenuOpen, toggleMenu, isHome }) => {
+export const Header = ({ isMenuOpen, toggleMenu, isHome }) => {
   const uiContext = React.useContext(UiContext);
   return (
     <TopBar className={cls['guide-top-bar']}>
@@ -56,4 +56,4 @@ const GuideHeader = ({ isMenuOpen, toggleMenu, isHome }) => {
   );
 };
 
-export default GuideHeader;
+export default Header;

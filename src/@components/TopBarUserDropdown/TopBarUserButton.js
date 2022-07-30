@@ -3,9 +3,9 @@ import classnames from 'classnames';
 import Icon from '@duik/icon';
 import { Avatar } from '@duik/it';
 
-import cls from './header-user-dropdown.module.scss';
+import cls from './top-bar-user-dropdown.module.scss';
 
-const TopBarUserButton = ({
+export const TopBarUserButton = ({
   className,
   children,
   imgUrl,

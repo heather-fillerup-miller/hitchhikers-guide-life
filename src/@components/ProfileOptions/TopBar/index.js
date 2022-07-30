@@ -5,7 +5,7 @@ import {
   TopBarTitle,
 } from '@duik/it'
 
-import TopBarTemplate from '../ProfileOptions'
+import TopBarTemplate from '..'
 
 
 const SettingsListingTopBar = props => (

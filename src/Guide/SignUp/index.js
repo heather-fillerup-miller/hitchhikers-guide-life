@@ -14,8 +14,8 @@ import {
 import * as images from '@Assets';
 import cls from './signup.module.scss';
 
-import LoginCard from './components/Card';
-import LoginCardContainer from './components/CardContainer';
+import LoginCard from '../../@components/Card';
+import LoginCardContainer from '../../@components/CardContainer';
 
 const SignUp = () => {
   return (

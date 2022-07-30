@@ -7,7 +7,7 @@ import { Badge } from '@components';
 
 import cls from './diet-topic.module.scss';
 
-const DietTopic = ({
+export const DietTopic = ({
   children,
   Component,
   className,

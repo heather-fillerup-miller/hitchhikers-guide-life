@@ -21,7 +21,7 @@ import {
   Progress
 } from '@duik/it';
 
-import TopBar from './components/TopBar';
+import TopBar from '../../@components/ProfileOptions/TopBar';
 import cls from './profile.module.scss';
 
 import optionsCountries from './assets/optionsCountries';

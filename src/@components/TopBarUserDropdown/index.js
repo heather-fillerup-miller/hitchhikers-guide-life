@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Dropdown } from '@duik/it';
 
-import DisplayComponent from './DisplayComponent';
+import TopBarUserButton from './TopBarUserButton';
 
-const TopBarUserDropdown = ({ className, children, user, imgUrl, ...rest }) => (
-  <Dropdown ButtonComponent={DisplayComponent} buttonProps={user} {...rest}>
+export const TopBarUserDropdown = ({ className, children, user, imgUrl, ...rest }) => (
+  <Dropdown ButtonComponent={TopBarUserButton} buttonProps={user} {...rest}>
     {children}
   </Dropdown>
 );

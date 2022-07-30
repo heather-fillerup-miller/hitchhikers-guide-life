@@ -9,7 +9,7 @@ import { NavBurger } from "@components";
 import { UiContext } from "@context";
 
 import cls from "./top-bar.module.scss";
-import TopBarUserDropdown from "../../../components/TopBarUserDropdown";
+import TopBarUserDropdown from "../TopBarUserDropdown";
 import * as images from '@Assets';
 
 const TopBarTemplate = ({ children, className, isMenuOpen, rightEl }) => {

@@ -10,17 +10,16 @@ import {
   ScrollArea
 } from '@duik/it';
 
-import { WidgetVideoPreview } from '@components';
-import WidgetLink from './components/WidgetLink';
+import { DietTopic, WidgetVideoPreview, WidgetLink } from '@components';
+//import WidgetLink from './components/WidgetLink';
 
-import Header from '../components/Header';
+import Header from '../../@components/Header/Header';
 
 import cls from './diet-home.module.scss';
 
 import meals from './assets/meals';
 import sidebarNavigation from './assets/sidebarNavigation';
 import sidebarVideos from './assets/sidebarVideos';
-import DietTopic from './components/DietTopic';
 
 const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const uiContext = React.useContext(UiContext);
