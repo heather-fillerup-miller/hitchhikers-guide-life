@@ -9,7 +9,7 @@ Users can sign up for an account or login, then see tasks available, such as set
 personalized experience (Some features still under development).
 
 Utilizing my partner's microservice: users can then view tasks such as their meal plan for the day, 
-which generates 3 random meals for breakfast, lunch and dinner.
+which generates 3 random meals for breakfast, lunch and dinner. https://github.com/mikek734/CS361
 
 This project utilizes REACT components and designs from Dashboard UI Kit https://developer.dashboard-ui.com/docs/react/installation
 
