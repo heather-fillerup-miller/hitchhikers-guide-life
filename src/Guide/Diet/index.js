@@ -20,8 +20,6 @@ import sidebarVideos from './assets/sidebarVideos';
 
 const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
    
-  const 
-
   const uiContext = React.useContext(UiContext);
   return (
     <ContainerVertical>
