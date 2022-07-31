@@ -1,5 +1,5 @@
 import React from "react";
-import * as images from "@Assets";
+import * as images from "@images";
 import cls from "./options.module.scss";
 
 export default [

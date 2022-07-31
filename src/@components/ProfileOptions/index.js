@@ -10,7 +10,7 @@ import { UiContext } from "@context";
 
 import cls from "./top-bar.module.scss";
 import TopBarUserDropdown from "../TopBarUserDropdown";
-import * as images from '@Assets';
+import * as images from '@images';
 
 const TopBarTemplate = ({ children, className, isMenuOpen, rightEl }) => {
   const uiContext = React.useContext(UiContext);

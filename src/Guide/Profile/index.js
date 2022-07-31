@@ -28,7 +28,7 @@ import optionsCountries from './assets/optionsCountries';
 import optionsCities from './assets/optionsCities';
 import optionsFitness from './assets/optionsFitness';
 import optionsDiet from './assets/optionsDiet';
-import * as images from '@Assets';
+import * as images from '@images';
 
 const links = [
   {

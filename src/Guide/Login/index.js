@@ -11,7 +11,7 @@ import {
   FormGroup
 } from '@duik/it';
 
-import * as images from '@Assets';
+import * as images from '@images';
 import cls from './login.module.scss';
 
 import LoginCard from '../../@components/Card';

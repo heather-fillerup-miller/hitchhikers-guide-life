@@ -12,7 +12,7 @@ import {
 import { NavBurger } from '@components';
 import { UiContext } from '@context';
 
-import * as images from '@Assets';
+import * as images from '@images';
 
 import TopBarUserDropdown from '../TopBarUserDropdown/index';
 import cls from './top-bar-header.module.scss';
