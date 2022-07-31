@@ -1,6 +1,17 @@
-# Dashboard UI Kit Documentation
+# The Hitchhikers Guide to Life
 
-https://developer.dashboard-ui.com/docs/react/installation
+This is my CS 361 Portfolio Assignment
+
+It is a life coaching website designed to help people become better versions of themselves by enabling them 
+to create and track health, fitness, spiritual and finance goals.
+
+Users can sign up for an account or login, then see tasks available, such as setting up a profile for a 
+personalized experience.
+
+Utilizing my partner's microservice: Users can then view tasks such as their meal plan for the day, 
+which generates 3 random meals for breakfast, lunch and dinner.
+
+This project utilizes components from Dashboard UI Kit https://developer.dashboard-ui.com/docs/react/installation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
