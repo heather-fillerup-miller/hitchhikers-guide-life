@@ -23,67 +23,50 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const [ isLoading, setIsLoading ] = useState(true);
   const uiContext = React.useContext(UiContext);
 
-  // fetch three meals from the recipe microservice
-  const fetchMeals = useCallback(async () => {
-    console.log('fetching recipes');
+  // map a meal object to use with Diet Topic Component
+  const mapMeal = useCallback ((mealTitle, meal) => {
+    const mappedMeal = meal.map(item => ({
+      mealTitle: mealTitle,
+      id: item.id,
+      title: item.title,
+      healthScore: item.healthscore,
+      sourceUrl: item.spoonacularSourceUrl,
+      imgUrl: item.imgUrl,
+      letsDoItUrl: '/guide/profile',
+      creditText: item.creditText
+    }));
+    return mappedMeal[0];
+  }, []);
+
+  // get a recipe from the recipe microservice
+  const fetchMeal = useCallback(async (mealTitle, tags) => {
+      const url = 'http://localhost:9000/?tags=' + tags;
+      const response = await fetch(url);
+      const meal = await response.json();
+      return mapMeal(mealTitle, meal);
+  }, [mapMeal]);
+
+  // fetch three meals from the recipe microservice and add them to the microServiceMeals
+  const generateMeals = useCallback(async () => {
     let fetchedMeals = [];
     try {
-      let response = await fetch('http://localhost:9000/?tags=breakfast');
-      if (response.ok) {
-        const breakfastItem = (await response.json()).map(item => ({
-          mealTitle: "Breakfast",
-          id: item.id,
-          title: item.title,
-          healthScore: item.healthscore,
-          sourceUrl: item.spoonacularSourceUrl,
-          imgUrl: item.imgUrl,
-          letsDoItUrl: '/guide/profile',
-          creditText: item.creditText
-        }));
-        fetchedMeals.push(breakfastItem[0]);
-        response = await fetch('http://localhost:9000/?tags=lunch');
-        if(response.ok) {
-          const lunchItem = (await response.json()).map(item => ({
-            mealTitle: "Lunch",
-            id: item.id,
-            title: item.title,
-            healthScore: item.healthscore,
-            sourceUrl: item.spoonacularSourceUrl,
-            imgUrl: item.imgUrl,
-            letsDoItUrl: '/guide/profile',
-            creditText: item.creditText
-          }));
-          fetchedMeals.push(lunchItem[0]);
-          response = await fetch('http://localhost:9000/?tags=dinner');
-          if (response.ok) {
-            const dinnerItem = (await response.json()).map(item => ({
-              mealTitle: "Dinner",
-              id: item.id,
-              title: item.title,
-              healthScore: item.healthscore,
-              sourceUrl: item.spoonacularSourceUrl,
-              imgUrl: item.imgUrl,
-              letsDoItUrl: '/guide/profile',
-              creditText: item.creditText
-            }));
-            fetchedMeals.push(dinnerItem[0]);
-            console.log("Meals: " + JSON.stringify(fetchedMeals));
-          } 
-        }
-      }
+      fetchedMeals.push(await fetchMeal("Breakfast", "breakfast"));
+      fetchedMeals.push(await fetchMeal("Lunch", "lunch"));
+      fetchedMeals.push(await fetchMeal("Dinner", "dinner"));
     } catch(err) {
       console.error(err);
     } finally {
       setMicroServiceMeals(fetchedMeals);
       setIsLoading(false);
     }
-  }, []);
+  }, [fetchMeal]);
 
+  // generate the meals
   useEffect(() => {
     if(isLoading) {
-      fetchMeals();
+      generateMeals();
     }
-  },[isLoading, fetchMeals]);
+  },[isLoading, generateMeals]);
 
   return (
     <ContainerVertical>
