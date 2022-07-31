@@ -1,6 +1,6 @@
 # The Hitchhikers Guide to Life
 
-This is my CS 361 Portfolio Assignment
+This is my CS 361 Portfolio Assignment.
 
 The Hitchhikers Guide to Life is a life coaching website designed to help people become better 
 versions of themselves by creating and tracking health, fitness, spiritual and finance goals.
