@@ -36,7 +36,8 @@ export const DietTopic = ({
       </Badge>
       <h2 className={cls['diet-list-topic-content']}>{title}</h2>
     </div>
-    <a className={cls['diet-list-topic-link']} href={sourceUrl}>by {creditText}</a>
+    {creditText && <a className={cls['diet-list-topic-link']} href={sourceUrl}>by {creditText}</a>}
+    {!creditText && <a className={cls['diet-list-topic-link']} href={sourceUrl}>by Spoonacular</a>}
     <div className={cls['diet-list-topic-recipe']}>
         <Avatar jumbo key={id} imgUrl={imgUrl} />
       </div>
