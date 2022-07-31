@@ -5,7 +5,7 @@ import Icon from '@duik/icon'
 import cls from './login-card.module.scss'
 
 
-const LoginCard = ({
+export const Card = ({
   children,
   className,
   isSelected,
@@ -26,9 +26,9 @@ const LoginCard = ({
 )
 
 
-LoginCard.defaultProps = {
+Card.defaultProps = {
   className: null,
   isSelected: false,
 }
 
-export default LoginCard
+export default Card

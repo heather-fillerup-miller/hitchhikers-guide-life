@@ -7,7 +7,7 @@ import { IconWrap, Badge } from '@components';
 
 import cls from './guide-topic.module.scss';
 
-const GuideTopic = ({
+export const GuideTopic = ({
   children,
   Component,
   className,

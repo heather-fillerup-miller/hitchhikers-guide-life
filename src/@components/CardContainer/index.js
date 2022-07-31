@@ -3,7 +3,7 @@ import classnames from 'classnames/dedupe';
 
 import cls from './login-card-container.module.scss';
 
-export const LoginCardContainer = ({ children, className, ...rest }) => {
+export const CardContainer = ({ children, className, ...rest }) => {
   return (
     <div
       className={classnames(cls['login-card-container'], className)}
@@ -14,8 +14,8 @@ export const LoginCardContainer = ({ children, className, ...rest }) => {
   );
 };
 
-LoginCardContainer.defaultProps = {
+CardContainer.defaultProps = {
   className: null
 };
 
-export default LoginCardContainer;
+export default CardContainer;

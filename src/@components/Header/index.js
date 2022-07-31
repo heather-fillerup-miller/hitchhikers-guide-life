@@ -56,4 +56,9 @@ export const Header = ({ isMenuOpen, toggleMenu, isHome }) => {
   );
 };
 
+Header.defaultProps = {
+  isMenuOpen: null, toggleMenu: null, isHome: false,
+};
+
+
 export default Header;

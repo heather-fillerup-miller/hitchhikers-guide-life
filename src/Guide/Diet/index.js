@@ -10,10 +10,7 @@ import {
   ScrollArea
 } from '@duik/it';
 
-import { DietTopic, WidgetVideoPreview, WidgetLink } from '@components';
-//import WidgetLink from './components/WidgetLink';
-
-import Header from '../../@components/Header/Header';
+import { DietTopic, WidgetVideoPreview, WidgetLink, Header } from '@components';
 
 import cls from './diet-home.module.scss';
 
@@ -22,6 +19,9 @@ import sidebarNavigation from './assets/sidebarNavigation';
 import sidebarVideos from './assets/sidebarVideos';
 
 const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
+   
+  const 
+
   const uiContext = React.useContext(UiContext);
   return (
     <ContainerVertical>
@@ -65,7 +65,6 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
                     <WidgetVideoPreview key={item.title} {...item} />
                   ))}
                 </div>
-                {/* <WidgetBottomCta>View All Videos</WidgetBottomCta> */}
               </Widget>
             </div>
           </div>

@@ -14,8 +14,7 @@ import {
 import * as images from '@images';
 import cls from './signup.module.scss';
 
-import LoginCard from '../../@components/Card';
-import LoginCardContainer from '../../@components/CardContainer';
+import { Card, CardContainer } from '@components';
 
 const SignUp = () => {
   return (
@@ -57,20 +56,20 @@ const SignUp = () => {
           {/* <UikDivider margin /> */}
           <br />
           <h3 className={cls['signup-headline']}>What do you want to improve?</h3>
-          <LoginCardContainer>
-            <LoginCard isSelected>
+          <CardContainer>
+            <Card isSelected>
               <Icon>love</Icon>
               <p>Health</p>
-            </LoginCard>
-            <LoginCard>
+            </Card>
+            <Card>
               <Icon>smile</Icon>
               <p>Stress</p>
-            </LoginCard>
-            <LoginCard>
+            </Card>
+            <Card>
               <Icon>wallet</Icon>
               <p>Finances</p>
-            </LoginCard>
-          </LoginCardContainer>
+            </Card>
+          </CardContainer>
 
           <Button Component={Link} success block to="/guide/home">
             Get Guidance to a Better Life!

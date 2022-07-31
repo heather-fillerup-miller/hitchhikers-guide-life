@@ -10,16 +10,14 @@ import {
   ScrollArea
 } from '@duik/it';
 
-import { WidgetLink, WidgetVideoPreview } from '@components';
-
-import Header from '../../@components/Header/Header';
+import { WidgetLink, WidgetVideoPreview, Header, GuideTopic } from '@components';
 
 import cls from './guide-home.module.scss';
 
 import topics from './assets/topics';
 import sidebarNavigation from './assets/sidebarNavigation';
 import sidebarVideos from './assets/sidebarVideos';
-import GuideTopic from '../../@components/GuideTopic';
+//import GuideTopic from '../../@components/GuideTopic';
 
 const GuideHome = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
   const uiContext = React.useContext(UiContext);

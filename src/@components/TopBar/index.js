@@ -5,10 +5,10 @@ import {
   TopBarTitle,
 } from '@duik/it'
 
-import TopBarTemplate from '..'
+import TopBarTemplate from '../ProfileOptions'
 
 
-const SettingsListingTopBar = props => (
+export const TopBar = props => (
   <TopBarTemplate { ...props } >
     <TopBarSection>
       <TopBarTitle>
@@ -19,4 +19,4 @@ const SettingsListingTopBar = props => (
 )
 
 
-export default SettingsListingTopBar
+export default TopBar
