@@ -80,7 +80,8 @@ const SignUp = () => {
             <Icon mr>view_list</Icon> Hitchhiker's Guide to a Better Life
           </h3>
           <p className={cls['signup-description']}>
-          All you really need to know for the moment is that the universe is a lot more complicated than you might think, even if you start from a position of thinking it’s pretty damn complicated in the first place.
+          All you really need to know for the moment is that the universe is a lot more complicated than you might think, 
+          even if you start from a position of thinking it’s pretty damn complicated in the first place.
           </p>
           <Avatar imgUrl={images.da1} name="Douglas Adams" sm />
         </div>

@@ -16,7 +16,7 @@ const RootRoute = props => {
   const uiContext = React.useContext(UiContext);
 
   React.useEffect(() => {
-    // on route change, we hide the menus
+    // on route change hide the menus
     uiContext.menu.handleClose();
     uiContext.filter.handleClose();
   }, [props.location.pathname]); // eslint-disable-line

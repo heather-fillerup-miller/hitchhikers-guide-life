@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-/* eslint-disable max-len */
-
 import {
   Widget,
   WidgetContent,
@@ -189,7 +187,8 @@ const Profile = () => {
               <WidgetContent>
                 <h2>Life Goals</h2>
                 <p>
-                  Choose life goals that you are currently interested in. These options will personalize your suggested actions and motivational videos.
+                  Choose life goals that you are currently interested in. These options will personalize your 
+                  suggested actions and motivational videos.
                 </p>
               </WidgetContent>
               {goalAlert && <WidgetContent>
