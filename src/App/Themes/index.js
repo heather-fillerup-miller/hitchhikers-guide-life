@@ -2,11 +2,11 @@ import React from 'react';
 import classnames from 'classnames';
 import { withRouter } from 'react-router-dom';
 import Icon from '@duik/icon';
-import { OuterEventsHandler, NavLink, Divider } from '@duik/it';
+import { OuterEventsHandler, NavLink } from '@duik/it';
 
-import cls from './navigator.module.scss';
+import cls from './themes.module.scss';
 
-const Navigator = props => {
+const Themes = props => {
   const {
     location: { pathname }
   } = props;
@@ -31,7 +31,7 @@ const Navigator = props => {
 
   return (
     <OuterEventsHandler
-      className={classnames(cls['navigator-container'])}
+      className={classnames(cls['themes-container'])}
       onOuterEvent={isExpanded ? handleHide : null}
     >
       {isDark && (
@@ -61,15 +61,14 @@ const Navigator = props => {
         <NavLink pill onClick={toggleTheme}>
           Switch Dark/Light Theme
         </NavLink>
-        <Divider />
       </div>
     </OuterEventsHandler>
   );
 };
 
-Navigator.defaultProps = {
+Themes.defaultProps = {
   className: null,
   Component: OuterEventsHandler
 };
 
-export default withRouter(Navigator);
+export default withRouter(Themes);

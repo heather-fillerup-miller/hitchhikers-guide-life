@@ -56,6 +56,7 @@ const Diet = ({ isMenuOpen }: { isMenuOpen: Boolean }) => {
     } catch(err) {
       console.error(err);
     } finally {
+      console.log(fetchedMeals);
       setMicroServiceMeals(fetchedMeals);
       setIsLoading(false);
     }

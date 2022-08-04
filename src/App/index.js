@@ -10,7 +10,7 @@ import { UiContext } from '@context';
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import { Guide } from 'Guide';
 import { useMenuVisibility } from '@utils';
-import Navigator from './Navigator';
+import Themes from './Themes';
 
 const RootRoute = props => {
   const uiContext = React.useContext(UiContext);
@@ -23,9 +23,10 @@ const RootRoute = props => {
 
   return (
     <>
-      <Navigator />
+      <Themes />
       <Switch>
         <Route path="/guide" component={Guide} />
+        {/* use redirect for handling logged in */}
         <Redirect to="/guide" component={Guide}/>
       </Switch>
     </>
